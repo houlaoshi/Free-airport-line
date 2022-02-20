@@ -5,351 +5,987 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2429, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2411, server: 172.99.190.87, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2451, server: 172.99.190.205, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2469, server: 172.99.190.205, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2474, server: 172.99.190.205, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2463, server: 172.99.190.205, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2518, server: 172.99.190.205, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2537, server: 172.99.190.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2571, server: 172.99.190.205, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2567, server: 172.99.190.205, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2447, server: 172.99.190.205, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_2762, server: 134.195.196.193, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_2754, server: 134.195.196.200, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2465, server: 172.99.190.205, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2610, server: 172.99.190.149, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_2775, server: 169.197.141.91, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2381, server: 172.99.190.39, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2532, server: 172.99.190.39, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2408, server: 172.99.190.188, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_2797, server: 134.195.196.200, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2524, server: 172.99.190.205, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2527, server: 172.99.190.205, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2541, server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2588, server: 172.99.190.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_2767, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_2770, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2348, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2471, server: 172.99.190.39, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2460, server: 172.99.190.205, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2491, server: 172.99.190.39, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2540, server: 172.99.190.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_2895, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2514, server: 172.99.190.39, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2585, server: 172.99.190.87, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_2858, server: 134.195.196.200, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2476, server: 172.99.190.205, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2467, server: 172.99.190.39, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2389, server: 172.99.190.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2445, server: 172.99.190.39, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_2921, server: 134.195.196.147, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_2934, server: 134.195.196.200, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_8.12Mb, server: 134.195.196.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_3.35Mb, server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 加拿大（YouTube订阅：侯老师网络学堂, server: 134.195.196.147, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_0.85Mb, server: 134.195.196.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_6.86Mb, server: 172.99.190.87, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_2.31Mb, server: 134.195.196.200, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_0.47Mb, server: 134.195.196.200, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_1.63Mb, server: 134.195.196.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_8.35Mb, server: 134.195.196.147, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_4.27Mb, server: 134.195.196.147, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_1.05Mb, server: 134.195.196.200, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_0.26Mb, server: 134.195.196.200, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 加拿大（YouTube订阅：侯老师网络学堂）, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_3.58Mb, server: 134.195.196.200, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_0.58Mb, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_1.90Mb, server: 134.195.196.200, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 2, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_5.82Mb, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_1.03Mb, server: 134.195.196.193, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_4.31Mb, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_2887美国（YouTube订阅：侯老师网络学堂）_0.50Mb, server: 134.195.196.193, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_4.48Mb, server: 134.195.196.147, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_5.32Mb, server: 134.195.196.200, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_0.69Mb, server: 134.195.196.193, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_0.17Mb, server: 134.195.196.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_5.59Mb, server: 134.195.196.200, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_3.05Mb, server: 134.195.196.200, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_1.32Mb, server: 134.195.196.200, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_1.58Mb, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_0.75Mb, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_4.92Mb, server: 169.197.141.91, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_0.42Mb, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_0.44Mb, server: 169.197.141.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_0.64Mb, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 中转未知（YouTube订阅：侯老师网络学堂）_15.13Mb, server: tunnel-tw-a-01.xncloud.xyz, port: 504, type: vmess, uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-hinet-tw-04.xncloud.xyz}, udp: true}
-  - {name: 中转未知（YouTube订阅：侯老师网络学堂）_10.24Mb, server: 37.61.213.94, port: 443, type: vmess, uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: 美国（YouTube订阅：侯老师网络学堂）_0.48Mb, server: 134.195.196.200, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 中转未知（YouTube订阅：侯老师网络学堂）_17.49Mb, server: 128hk8.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 128hk8.fans8.xyz}, udp: true}
-  - {name: 中转未知（YouTube订阅：侯老师网络学堂）_18.89Mb, server: 1211hk1.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1211hk1.fans8.xyz}, udp: true}
-  - {name: 德国（YouTube订阅：侯老师网络学堂）_357, server: 193.108.117.24, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 德国（YouTube订阅：侯老师网络学堂）_350, server: 193.108.117.24, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_2.99Mb, server: 134.195.196.193, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_4.17Mb, server: 134.195.196.200, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 中转（YouTube订阅：侯老师网络学堂）_4.27Mb, server: ycgyg.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: ycgyg.com}, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_2.53Mb, server: 134.195.196.200, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_1.49Mb, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_0.48Mb, server: 134.195.196.200, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 美国（YouTube订阅：侯老师网络学堂）_3.88Mb, server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_4.34Mb, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_5.87Mb, server: 134.195.196.193, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_2.43Mb, server: 134.195.196.193, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_2869_7.46Mb, server: 134.195.196.147, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂）_550, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂）_549, server: 149.202.82.172, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂）_546, server: 149.202.82.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂）_535, server: 149.202.82.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂）_562, server: 149.202.82.172, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂）_548, server: 149.202.82.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂）_522, server: 149.202.82.172, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂）_555, server: 149.202.82.172, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂）_534, server: 149.202.82.172, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂）_579, server: 149.202.82.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂）_533, server: 149.202.82.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 香港中转（YouTube订阅：侯老师网络学堂）, server: mg05.nfeng6.pp.ua, port: 63078, type: vmess, uuid: 042250a0-5c14-3394-b57e-cf4970f5dcfc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
+  - {name: 香港中转（YouTube订阅：侯老师网络学堂） 2, server: mg03.nfeng6.pp.ua, port: 63078, type: vmess, uuid: 042250a0-5c14-3394-b57e-cf4970f5dcfc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
+  - {name: 新加坡中转（YouTube订阅：侯老师网络学堂）, server: hk1.qtycloud.link, port: 1507, type: vmess, uuid: f6c5e143-fbb2-3cc2-8388-cb74a2e5854e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk1.qtycloud.link}, udp: true}
+  - {name: 新加坡中转（YouTube订阅：侯老师网络学堂） 2, server: hk1.qtycloud.link, port: 1501, type: vmess, uuid: f6c5e143-fbb2-3cc2-8388-cb74a2e5854e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk1.qtycloud.link}, udp: true}
+  - {name: 香港中转（YouTube订阅：侯老师网络学堂） 3, server: mg04.nfeng6.pp.ua, port: 63078, type: vmess, uuid: 042250a0-5c14-3394-b57e-cf4970f5dcfc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
+  - {name: 韩国（YouTube订阅：侯老师网络学堂）, server: v.mumi.bid, port: 10121, type: vmess, uuid: 403acd13-9d60-44f1-ac2d-0359cd5e2d7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v.mumi.bid}, udp: true}
+  - {name: 美国（YouTube订阅：侯老师网络学堂）_, server: 38.75.136.127, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国（YouTube订阅：侯老师网络学堂）, server: us.lv.buyvm.tgproxy.wtf, port: 21888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: us.lv.buyvm.tgproxy.wtf}, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）, server: 134.195.196.193, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 2, server: 134.195.196.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 3, server: 134.195.196.193, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 4, server: 134.195.196.147, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 5, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 6, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 7, server: 134.195.196.193, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 德国（YouTube订阅：侯老师网络学堂）, server: 193.108.117.24, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国（YouTube订阅：侯老师网络学堂） 2, server: 169.197.141.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 8, server: 134.195.196.193, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 9, server: 134.195.196.200, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国（YouTube订阅：侯老师网络学堂） 3, server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 德国（YouTube订阅：侯老师网络学堂） 2, server: 193.108.117.24, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 10, server: 134.195.196.147, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 德国（YouTube订阅：侯老师网络学堂） 3, server: 193.108.117.24, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 11, server: 134.195.196.200, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 12, server: 134.195.196.200, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 13, server: 134.195.196.200, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 德国（YouTube订阅：侯老师网络学堂） 4, server: 193.108.117.24, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 14, server: 134.195.196.200, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 15, server: 134.195.196.147, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂）, server: 172.99.190.87, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 16, server: 134.195.196.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 17, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 德国（YouTube订阅：侯老师网络学堂） 5, server: 193.108.117.24, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 2, server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂）, server: 62.210.209.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 18, server: 134.195.196.200, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 3, server: 172.99.190.39, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 4, server: 172.99.190.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 19, server: 134.195.196.200, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 20, server: 134.195.196.200, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 荷兰（YouTube订阅：侯老师网络学堂）, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: 9b04ac52-8a11-11ec-9aeb-52ac0014346a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 5, server: 172.99.190.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 6, server: 172.99.190.149, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 21, server: 134.195.196.193, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 德国（YouTube订阅：侯老师网络学堂） 6, server: 37.61.213.94, port: 443, type: vmess, uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 7, server: 172.99.190.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国（YouTube订阅：侯老师网络学堂）_ 2, server: 38.91.107.43, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 22, server: 134.195.196.200, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 23, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 8, server: 172.99.190.39, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 9, server: 172.99.190.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 24, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 25, server: 134.195.196.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 10, server: 172.99.190.39, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 26, server: 134.195.196.147, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 俄罗斯联邦（YouTube订阅：侯老师网络学堂）, server: 5.188.35.120, port: 443, type: vmess, uuid: 0c7a06d0-8061-4df7-b521-960e2b9ce0f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 11, server: 172.99.190.39, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 12, server: 172.99.190.188, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 13, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 14, server: 172.99.190.39, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 新加坡（YouTube订阅：侯老师网络学堂）, server: 128.1.95.250, port: 443, type: vmess, uuid: 65e05113-3849-4ce4-9881-5a891c2b1eeb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 15, server: 172.99.190.188, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 2, server: 95.142.161.171, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: zpK7f8fj6FwW, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 16, server: 172.99.190.39, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 17, server: 172.99.190.87, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 27, server: 134.195.196.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 18, server: 172.99.190.39, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 未知（YouTube订阅：侯老师网络学堂）, server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sakura/, ws-headers: {Host: zero1.a-yu.xyz}, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 19, server: 172.99.190.39, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 28, server: 134.195.196.193, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国（YouTube订阅：侯老师网络学堂） 4, server: test.0dc.cn, port: 443, type: vmess, uuid: ebe5703b-c18e-4664-c3a7-9fcf52453898, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: test.0dc.cn}, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 29, server: 134.195.196.200, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 未知（YouTube订阅：侯老师网络学堂） 2, server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, ws-headers: {Host: anzhuo-hezi1.herokuapp.com}, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 20, server: 172.99.190.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 30, server: 134.195.196.200, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 俄罗斯联邦（YouTube订阅：侯老师网络学堂） 2, server: 146.185.218.171, port: 443, type: vmess, uuid: 947af181-c509-4245-80de-9baf64f1aa51, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 21, server: 172.99.190.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 22, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 俄罗斯联邦（YouTube订阅：侯老师网络学堂） 3, server: 92.223.72.42, port: 443, type: vmess, uuid: ae08412f-5bb9-4be7-8560-1984976a1097, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 23, server: 172.99.190.205, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 3, server: 149.202.82.172, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 24, server: 172.99.190.87, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 25, server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 26, server: 172.99.190.39, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 27, server: 172.99.190.39, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 28, server: 172.99.190.39, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 29, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 30, server: 172.99.190.87, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 4, server: 172.67.68.58, port: 443, type: vmess, uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shuier, ws-headers: {Host: xc1.v2rie.pp.ua}, udp: true}
+  - {name: 未知（YouTube订阅：侯老师网络学堂） 3, server: icook.tw, port: 443, type: vmess, uuid: 188741f2-1f14-43cb-be7a-1200a9f4332e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2022.ml}, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 31, server: 172.99.190.87, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 32, server: 172.99.190.149, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 33, server: 172.99.190.149, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 34, server: 172.99.190.39, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国（YouTube订阅：侯老师网络学堂）_ 3, server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 35, server: 172.99.190.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 31, server: 134.195.196.193, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 36, server: 172.99.190.39, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 5, server: 145.239.1.100, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 37, server: 172.99.190.149, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 38, server: 172.99.190.205, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 39, server: 172.99.190.188, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 40, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 41, server: 172.99.190.188, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 6, server: 149.202.82.172, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 42, server: 172.99.190.149, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 43, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 44, server: 172.99.190.149, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 俄罗斯联邦（YouTube订阅：侯老师网络学堂） 4, server: 92.223.65.119, port: 443, type: vmess, uuid: 3fd6713f-e036-4ba9-938a-da7843a17a15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 45, server: 172.99.190.205, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 7, server: 145.239.1.100, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 8, server: 149.202.82.172, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 46, server: 172.99.190.188, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 9, server: 149.202.82.172, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 10, server: 149.202.82.172, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 47, server: 172.99.190.87, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 48, server: 172.99.190.149, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 11, server: 149.202.82.172, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 12, server: 149.202.82.172, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 49, server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 50, server: 172.99.190.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 13, server: 145.239.1.100, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 14, server: 149.202.82.172, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 51, server: 172.99.190.205, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国（YouTube订阅：侯老师网络学堂）_ 4, server: 38.75.136.127, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 15, server: 145.239.1.100, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 52, server: 172.99.190.205, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 16, server: 149.202.82.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 17, server: 149.202.82.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 18, server: 149.202.82.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 19, server: 149.202.82.172, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 53, server: 172.99.190.149, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 20, server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 54, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 55, server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 21, server: 149.202.82.172, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 22, server: 145.239.1.100, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 23, server: 149.202.82.172, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 美国（YouTube订阅：侯老师网络学堂） 5, server: amu1ahfi.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: amu1ahfi.com}, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 56, server: 172.99.190.205, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 57, server: 172.99.190.205, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 58, server: 172.99.190.188, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 24, server: 145.239.1.100, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 25, server: 149.202.82.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 26, server: 145.239.1.100, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 59, server: 172.99.190.39, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 60, server: 172.99.190.205, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 27, server: 149.202.82.172, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 28, server: 145.239.1.100, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 29, server: 149.202.82.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 32, server: 134.195.196.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 61, server: 172.99.190.39, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 33, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 30, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 31, server: 149.202.82.172, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 62, server: 172.99.190.205, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 34, server: 134.195.196.147, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 63, server: 172.99.190.87, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 35, server: 134.195.196.200, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 64, server: 172.99.190.87, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 32, server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 65, server: 172.99.190.39, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 66, server: 172.99.190.205, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 67, server: 172.99.190.39, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国（YouTube订阅：侯老师网络学堂） 6, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 33, server: 149.202.82.172, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 36, server: 134.195.196.200, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 美国（YouTube订阅：侯老师网络学堂）_ 5, server: 169.197.141.91, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 34, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 68, server: 172.99.190.149, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 35, server: 145.239.1.100, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 69, server: 172.99.190.149, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 70, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 37, server: 134.195.196.193, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 36, server: 149.202.82.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 37, server: ovh.fr.tgproxy.wtf, port: 8888, type: vmess, uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: ovh.fr.tgproxy.wtf}, udp: true}
+  - {name: 美国（YouTube订阅：侯老师网络学堂） 7, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
+  - {name: 澳大利亚（YouTube订阅：侯老师网络学堂）, server: 217.138.204.202, port: 443, type: vmess, uuid: fa1eff46-f454-42d9-b881-90a102d5521d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 38, server: 134.195.196.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 38, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 印度（YouTube订阅：侯老师网络学堂）, server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 71, server: 172.99.190.205, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 韩国（YouTube订阅：侯老师网络学堂） 2, server: 128.1.125.164, port: 443, type: vmess, uuid: 312c3de7-233e-4d72-b3dc-de0205083312, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 英国（YouTube订阅：侯老师网络学堂） 72, server: 172.99.190.205, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国（YouTube订阅：侯老师网络学堂） 8, server: 70.39.67.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: amu1ahfi.com}, udp: true}
+  - {name: 法国（YouTube订阅：侯老师网络学堂） 39, server: 149.202.82.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂） 39, server: 134.195.196.200, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国（YouTube订阅：侯老师网络学堂）_1.71Mb, server: 172.99.190.188, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_0.95Mb, server: 134.195.196.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_2.96Mb, server: 134.195.196.147, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_2.15Mb, server: 134.195.196.147, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_2.99Mb 2, server: 134.195.196.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_1.46Mb, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_3.42Mb, server: 134.195.196.147, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_2.72Mb, server: 134.195.196.200, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_0.88Mb, server: 134.195.196.200, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_9.52Mb, server: 134.195.196.147, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_1.01Mb, server: 134.195.196.200, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_1.96Mb, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_8.08Mb, server: 134.195.196.200, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国（YouTube订阅：侯老师网络学堂）_3.86Mb, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_0.55Mb, server: 134.195.196.193, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_0.95Mb 2, server: 134.195.196.193, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_6.52Mb, server: 134.195.196.200, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_5.60Mb, server: 134.195.196.193, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_2.53Mb 2, server: 134.195.196.200, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_7.46Mb, server: 134.195.196.147, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_0.86Mb, server: 134.195.196.200, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_5.87Mb 2, server: 134.195.196.193, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_2.43Mb 2, server: 134.195.196.193, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_4.17Mb 2, server: 134.195.196.200, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_4.34Mb 2, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_8.42Mb, server: 134.195.196.200, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_6.95Mb, server: 134.195.196.200, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_6.89Mb, server: 134.195.196.200, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_12.80Mb, server: 134.195.196.144, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_0.75Mb, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_1.70Mb, server: 134.195.196.193, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 加拿大（YouTube订阅：侯老师网络学堂）_2.99Mb 3, server: 134.195.196.193, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国（YouTube订阅：侯老师网络学堂）_2429
-      - 美国（YouTube订阅：侯老师网络学堂）_2411
-      - 美国（YouTube订阅：侯老师网络学堂）_2451
-      - 美国（YouTube订阅：侯老师网络学堂）_2469
-      - 美国（YouTube订阅：侯老师网络学堂）_2474
-      - 美国（YouTube订阅：侯老师网络学堂）_2463
-      - 美国（YouTube订阅：侯老师网络学堂）_2518
-      - 美国（YouTube订阅：侯老师网络学堂）_2537
-      - 美国（YouTube订阅：侯老师网络学堂）_2571
-      - 美国（YouTube订阅：侯老师网络学堂）_2567
-      - 美国（YouTube订阅：侯老师网络学堂）_2447
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2762
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2754
-      - 美国（YouTube订阅：侯老师网络学堂）_2465
-      - 美国（YouTube订阅：侯老师网络学堂）_2610
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2775
-      - 美国（YouTube订阅：侯老师网络学堂）_2381
-      - 美国（YouTube订阅：侯老师网络学堂）_2532
-      - 美国（YouTube订阅：侯老师网络学堂）_2408
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2797
-      - 美国（YouTube订阅：侯老师网络学堂）_2524
-      - 美国（YouTube订阅：侯老师网络学堂）_2527
-      - 美国（YouTube订阅：侯老师网络学堂）_2541
-      - 美国（YouTube订阅：侯老师网络学堂）_2588
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2767
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2770
-      - 美国（YouTube订阅：侯老师网络学堂）_2348
-      - 美国（YouTube订阅：侯老师网络学堂）_2471
-      - 美国（YouTube订阅：侯老师网络学堂）_2460
-      - 美国（YouTube订阅：侯老师网络学堂）_2491
-      - 美国（YouTube订阅：侯老师网络学堂）_2540
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2895
-      - 美国（YouTube订阅：侯老师网络学堂）_2514
-      - 美国（YouTube订阅：侯老师网络学堂）_2585
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2858
-      - 美国（YouTube订阅：侯老师网络学堂）_2476
-      - 美国（YouTube订阅：侯老师网络学堂）_2467
-      - 美国（YouTube订阅：侯老师网络学堂）_2389
-      - 美国（YouTube订阅：侯老师网络学堂）_2445
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2921
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2934
-      - 美国（YouTube订阅：侯老师网络学堂）_8.12Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_3.35Mb
-      - 加拿大（YouTube订阅：侯老师网络学堂
-      - 美国（YouTube订阅：侯老师网络学堂）_0.85Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_6.86Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_2.31Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.47Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.63Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_8.35Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.27Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.05Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.26Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.99Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.17Mb
+      - 中转（YouTube订阅：侯老师网络学堂）_4.27Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.53Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.49Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.48Mb
+      - 美国（YouTube订阅：侯老师网络学堂）_3.88Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.34Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_5.87Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.43Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2869_7.46Mb
+      - 法国（YouTube订阅：侯老师网络学堂）_550
+      - 法国（YouTube订阅：侯老师网络学堂）_549
+      - 法国（YouTube订阅：侯老师网络学堂）_546
+      - 法国（YouTube订阅：侯老师网络学堂）_535
+      - 法国（YouTube订阅：侯老师网络学堂）_562
+      - 法国（YouTube订阅：侯老师网络学堂）_548
+      - 法国（YouTube订阅：侯老师网络学堂）_522
+      - 法国（YouTube订阅：侯老师网络学堂）_555
+      - 法国（YouTube订阅：侯老师网络学堂）_534
+      - 法国（YouTube订阅：侯老师网络学堂）_579
+      - 法国（YouTube订阅：侯老师网络学堂）_533
+      - 香港中转（YouTube订阅：侯老师网络学堂）
+      - 香港中转（YouTube订阅：侯老师网络学堂） 2
+      - 新加坡中转（YouTube订阅：侯老师网络学堂）
+      - 新加坡中转（YouTube订阅：侯老师网络学堂） 2
+      - 香港中转（YouTube订阅：侯老师网络学堂） 3
+      - 韩国（YouTube订阅：侯老师网络学堂）
+      - 美国（YouTube订阅：侯老师网络学堂）_
+      - 美国（YouTube订阅：侯老师网络学堂）
       - 加拿大（YouTube订阅：侯老师网络学堂）
-      - 美国（YouTube订阅：侯老师网络学堂）_3.58Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.58Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.90Mb
       - 加拿大（YouTube订阅：侯老师网络学堂） 2
-      - 美国（YouTube订阅：侯老师网络学堂）_5.82Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.03Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.31Mb
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2887美国（YouTube订阅：侯老师网络学堂）_0.50Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.48Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_5.32Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.69Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.17Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_5.59Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_3.05Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.32Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.58Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.75Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.92Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.42Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.44Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.64Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_15.13Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_10.24Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.48Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_17.49Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_18.89Mb
-      - 德国（YouTube订阅：侯老师网络学堂）_357
-      - 德国（YouTube订阅：侯老师网络学堂）_350
+      - 加拿大（YouTube订阅：侯老师网络学堂） 3
+      - 加拿大（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 5
+      - 加拿大（YouTube订阅：侯老师网络学堂） 6
+      - 加拿大（YouTube订阅：侯老师网络学堂） 7
+      - 德国（YouTube订阅：侯老师网络学堂）
+      - 美国（YouTube订阅：侯老师网络学堂） 2
+      - 加拿大（YouTube订阅：侯老师网络学堂） 8
+      - 加拿大（YouTube订阅：侯老师网络学堂） 9
+      - 美国（YouTube订阅：侯老师网络学堂） 3
+      - 德国（YouTube订阅：侯老师网络学堂） 2
+      - 加拿大（YouTube订阅：侯老师网络学堂） 10
+      - 德国（YouTube订阅：侯老师网络学堂） 3
+      - 加拿大（YouTube订阅：侯老师网络学堂） 11
+      - 加拿大（YouTube订阅：侯老师网络学堂） 12
+      - 加拿大（YouTube订阅：侯老师网络学堂） 13
+      - 德国（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 14
+      - 加拿大（YouTube订阅：侯老师网络学堂） 15
+      - 英国（YouTube订阅：侯老师网络学堂）
+      - 加拿大（YouTube订阅：侯老师网络学堂） 16
+      - 加拿大（YouTube订阅：侯老师网络学堂） 17
+      - 德国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 2
+      - 法国（YouTube订阅：侯老师网络学堂）
+      - 加拿大（YouTube订阅：侯老师网络学堂） 18
+      - 英国（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 19
+      - 加拿大（YouTube订阅：侯老师网络学堂） 20
+      - 荷兰（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 6
+      - 加拿大（YouTube订阅：侯老师网络学堂） 21
+      - 德国（YouTube订阅：侯老师网络学堂） 6
+      - 英国（YouTube订阅：侯老师网络学堂） 7
+      - 美国（YouTube订阅：侯老师网络学堂）_ 2
+      - 加拿大（YouTube订阅：侯老师网络学堂） 22
+      - 加拿大（YouTube订阅：侯老师网络学堂） 23
+      - 英国（YouTube订阅：侯老师网络学堂） 8
+      - 英国（YouTube订阅：侯老师网络学堂） 9
+      - 加拿大（YouTube订阅：侯老师网络学堂） 24
+      - 加拿大（YouTube订阅：侯老师网络学堂） 25
+      - 英国（YouTube订阅：侯老师网络学堂） 10
+      - 加拿大（YouTube订阅：侯老师网络学堂） 26
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 11
+      - 英国（YouTube订阅：侯老师网络学堂） 12
+      - 英国（YouTube订阅：侯老师网络学堂） 13
+      - 英国（YouTube订阅：侯老师网络学堂） 14
+      - 新加坡（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 15
+      - 法国（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 16
+      - 英国（YouTube订阅：侯老师网络学堂） 17
+      - 加拿大（YouTube订阅：侯老师网络学堂） 27
+      - 英国（YouTube订阅：侯老师网络学堂） 18
+      - 未知（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 19
+      - 加拿大（YouTube订阅：侯老师网络学堂） 28
+      - 美国（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 29
+      - 未知（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 20
+      - 加拿大（YouTube订阅：侯老师网络学堂） 30
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 21
+      - 英国（YouTube订阅：侯老师网络学堂） 22
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 23
+      - 法国（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 24
+      - 英国（YouTube订阅：侯老师网络学堂） 25
+      - 英国（YouTube订阅：侯老师网络学堂） 26
+      - 英国（YouTube订阅：侯老师网络学堂） 27
+      - 英国（YouTube订阅：侯老师网络学堂） 28
+      - 英国（YouTube订阅：侯老师网络学堂） 29
+      - 英国（YouTube订阅：侯老师网络学堂） 30
+      - 法国（YouTube订阅：侯老师网络学堂） 4
+      - 未知（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 31
+      - 英国（YouTube订阅：侯老师网络学堂） 32
+      - 英国（YouTube订阅：侯老师网络学堂） 33
+      - 英国（YouTube订阅：侯老师网络学堂） 34
+      - 美国（YouTube订阅：侯老师网络学堂）_ 3
+      - 英国（YouTube订阅：侯老师网络学堂） 35
+      - 加拿大（YouTube订阅：侯老师网络学堂） 31
+      - 英国（YouTube订阅：侯老师网络学堂） 36
+      - 法国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 37
+      - 英国（YouTube订阅：侯老师网络学堂） 38
+      - 英国（YouTube订阅：侯老师网络学堂） 39
+      - 英国（YouTube订阅：侯老师网络学堂） 40
+      - 英国（YouTube订阅：侯老师网络学堂） 41
+      - 法国（YouTube订阅：侯老师网络学堂） 6
+      - 英国（YouTube订阅：侯老师网络学堂） 42
+      - 英国（YouTube订阅：侯老师网络学堂） 43
+      - 英国（YouTube订阅：侯老师网络学堂） 44
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂） 4
+      - 英国（YouTube订阅：侯老师网络学堂） 45
+      - 法国（YouTube订阅：侯老师网络学堂） 7
+      - 法国（YouTube订阅：侯老师网络学堂） 8
+      - 英国（YouTube订阅：侯老师网络学堂） 46
+      - 法国（YouTube订阅：侯老师网络学堂） 9
+      - 法国（YouTube订阅：侯老师网络学堂） 10
+      - 英国（YouTube订阅：侯老师网络学堂） 47
+      - 英国（YouTube订阅：侯老师网络学堂） 48
+      - 法国（YouTube订阅：侯老师网络学堂） 11
+      - 法国（YouTube订阅：侯老师网络学堂） 12
+      - 英国（YouTube订阅：侯老师网络学堂） 49
+      - 英国（YouTube订阅：侯老师网络学堂） 50
+      - 法国（YouTube订阅：侯老师网络学堂） 13
+      - 法国（YouTube订阅：侯老师网络学堂） 14
+      - 英国（YouTube订阅：侯老师网络学堂） 51
+      - 美国（YouTube订阅：侯老师网络学堂）_ 4
+      - 法国（YouTube订阅：侯老师网络学堂） 15
+      - 英国（YouTube订阅：侯老师网络学堂） 52
+      - 法国（YouTube订阅：侯老师网络学堂） 16
+      - 法国（YouTube订阅：侯老师网络学堂） 17
+      - 法国（YouTube订阅：侯老师网络学堂） 18
+      - 法国（YouTube订阅：侯老师网络学堂） 19
+      - 英国（YouTube订阅：侯老师网络学堂） 53
+      - 法国（YouTube订阅：侯老师网络学堂） 20
+      - 英国（YouTube订阅：侯老师网络学堂） 54
+      - 英国（YouTube订阅：侯老师网络学堂） 55
+      - 法国（YouTube订阅：侯老师网络学堂） 21
+      - 法国（YouTube订阅：侯老师网络学堂） 22
+      - 法国（YouTube订阅：侯老师网络学堂） 23
+      - 美国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 56
+      - 英国（YouTube订阅：侯老师网络学堂） 57
+      - 英国（YouTube订阅：侯老师网络学堂） 58
+      - 法国（YouTube订阅：侯老师网络学堂） 24
+      - 法国（YouTube订阅：侯老师网络学堂） 25
+      - 法国（YouTube订阅：侯老师网络学堂） 26
+      - 英国（YouTube订阅：侯老师网络学堂） 59
+      - 英国（YouTube订阅：侯老师网络学堂） 60
+      - 法国（YouTube订阅：侯老师网络学堂） 27
+      - 法国（YouTube订阅：侯老师网络学堂） 28
+      - 法国（YouTube订阅：侯老师网络学堂） 29
+      - 加拿大（YouTube订阅：侯老师网络学堂） 32
+      - 英国（YouTube订阅：侯老师网络学堂） 61
+      - 加拿大（YouTube订阅：侯老师网络学堂） 33
+      - 法国（YouTube订阅：侯老师网络学堂） 30
+      - 法国（YouTube订阅：侯老师网络学堂） 31
+      - 英国（YouTube订阅：侯老师网络学堂） 62
+      - 加拿大（YouTube订阅：侯老师网络学堂） 34
+      - 英国（YouTube订阅：侯老师网络学堂） 63
+      - 加拿大（YouTube订阅：侯老师网络学堂） 35
+      - 英国（YouTube订阅：侯老师网络学堂） 64
+      - 法国（YouTube订阅：侯老师网络学堂） 32
+      - 英国（YouTube订阅：侯老师网络学堂） 65
+      - 英国（YouTube订阅：侯老师网络学堂） 66
+      - 英国（YouTube订阅：侯老师网络学堂） 67
+      - 美国（YouTube订阅：侯老师网络学堂） 6
+      - 法国（YouTube订阅：侯老师网络学堂） 33
+      - 加拿大（YouTube订阅：侯老师网络学堂） 36
+      - 美国（YouTube订阅：侯老师网络学堂）_ 5
+      - 法国（YouTube订阅：侯老师网络学堂） 34
+      - 英国（YouTube订阅：侯老师网络学堂） 68
+      - 法国（YouTube订阅：侯老师网络学堂） 35
+      - 英国（YouTube订阅：侯老师网络学堂） 69
+      - 英国（YouTube订阅：侯老师网络学堂） 70
+      - 加拿大（YouTube订阅：侯老师网络学堂） 37
+      - 法国（YouTube订阅：侯老师网络学堂） 36
+      - 法国（YouTube订阅：侯老师网络学堂） 37
+      - 美国（YouTube订阅：侯老师网络学堂） 7
+      - 澳大利亚（YouTube订阅：侯老师网络学堂）
+      - 加拿大（YouTube订阅：侯老师网络学堂） 38
+      - 法国（YouTube订阅：侯老师网络学堂） 38
+      - 印度（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 71
+      - 韩国（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 72
+      - 美国（YouTube订阅：侯老师网络学堂） 8
+      - 法国（YouTube订阅：侯老师网络学堂） 39
+      - 加拿大（YouTube订阅：侯老师网络学堂） 39
+      - 美国（YouTube订阅：侯老师网络学堂）_1.71Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.95Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.96Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.15Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.99Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.46Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_3.42Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.72Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.88Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_9.52Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.01Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.96Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_8.08Mb
+      - 美国（YouTube订阅：侯老师网络学堂）_3.86Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.55Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.95Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_6.52Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_5.60Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.53Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_7.46Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.86Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_5.87Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.43Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.17Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.34Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_8.42Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_6.95Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_6.89Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_12.80Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.75Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.70Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.99Mb 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国（YouTube订阅：侯老师网络学堂）_2429
-      - 美国（YouTube订阅：侯老师网络学堂）_2411
-      - 美国（YouTube订阅：侯老师网络学堂）_2451
-      - 美国（YouTube订阅：侯老师网络学堂）_2469
-      - 美国（YouTube订阅：侯老师网络学堂）_2474
-      - 美国（YouTube订阅：侯老师网络学堂）_2463
-      - 美国（YouTube订阅：侯老师网络学堂）_2518
-      - 美国（YouTube订阅：侯老师网络学堂）_2537
-      - 美国（YouTube订阅：侯老师网络学堂）_2571
-      - 美国（YouTube订阅：侯老师网络学堂）_2567
-      - 美国（YouTube订阅：侯老师网络学堂）_2447
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2762
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2754
-      - 美国（YouTube订阅：侯老师网络学堂）_2465
-      - 美国（YouTube订阅：侯老师网络学堂）_2610
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2775
-      - 美国（YouTube订阅：侯老师网络学堂）_2381
-      - 美国（YouTube订阅：侯老师网络学堂）_2532
-      - 美国（YouTube订阅：侯老师网络学堂）_2408
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2797
-      - 美国（YouTube订阅：侯老师网络学堂）_2524
-      - 美国（YouTube订阅：侯老师网络学堂）_2527
-      - 美国（YouTube订阅：侯老师网络学堂）_2541
-      - 美国（YouTube订阅：侯老师网络学堂）_2588
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2767
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2770
-      - 美国（YouTube订阅：侯老师网络学堂）_2348
-      - 美国（YouTube订阅：侯老师网络学堂）_2471
-      - 美国（YouTube订阅：侯老师网络学堂）_2460
-      - 美国（YouTube订阅：侯老师网络学堂）_2491
-      - 美国（YouTube订阅：侯老师网络学堂）_2540
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2895
-      - 美国（YouTube订阅：侯老师网络学堂）_2514
-      - 美国（YouTube订阅：侯老师网络学堂）_2585
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2858
-      - 美国（YouTube订阅：侯老师网络学堂）_2476
-      - 美国（YouTube订阅：侯老师网络学堂）_2467
-      - 美国（YouTube订阅：侯老师网络学堂）_2389
-      - 美国（YouTube订阅：侯老师网络学堂）_2445
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2921
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2934
-      - 美国（YouTube订阅：侯老师网络学堂）_8.12Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_3.35Mb
-      - 加拿大（YouTube订阅：侯老师网络学堂
-      - 美国（YouTube订阅：侯老师网络学堂）_0.85Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_6.86Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_2.31Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.47Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.63Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_8.35Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.27Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.05Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.26Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.99Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.17Mb
+      - 中转（YouTube订阅：侯老师网络学堂）_4.27Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.53Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.49Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.48Mb
+      - 美国（YouTube订阅：侯老师网络学堂）_3.88Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.34Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_5.87Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.43Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2869_7.46Mb
+      - 法国（YouTube订阅：侯老师网络学堂）_550
+      - 法国（YouTube订阅：侯老师网络学堂）_549
+      - 法国（YouTube订阅：侯老师网络学堂）_546
+      - 法国（YouTube订阅：侯老师网络学堂）_535
+      - 法国（YouTube订阅：侯老师网络学堂）_562
+      - 法国（YouTube订阅：侯老师网络学堂）_548
+      - 法国（YouTube订阅：侯老师网络学堂）_522
+      - 法国（YouTube订阅：侯老师网络学堂）_555
+      - 法国（YouTube订阅：侯老师网络学堂）_534
+      - 法国（YouTube订阅：侯老师网络学堂）_579
+      - 法国（YouTube订阅：侯老师网络学堂）_533
+      - 香港中转（YouTube订阅：侯老师网络学堂）
+      - 香港中转（YouTube订阅：侯老师网络学堂） 2
+      - 新加坡中转（YouTube订阅：侯老师网络学堂）
+      - 新加坡中转（YouTube订阅：侯老师网络学堂） 2
+      - 香港中转（YouTube订阅：侯老师网络学堂） 3
+      - 韩国（YouTube订阅：侯老师网络学堂）
+      - 美国（YouTube订阅：侯老师网络学堂）_
+      - 美国（YouTube订阅：侯老师网络学堂）
       - 加拿大（YouTube订阅：侯老师网络学堂）
-      - 美国（YouTube订阅：侯老师网络学堂）_3.58Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.58Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.90Mb
       - 加拿大（YouTube订阅：侯老师网络学堂） 2
-      - 美国（YouTube订阅：侯老师网络学堂）_5.82Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.03Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.31Mb
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2887美国（YouTube订阅：侯老师网络学堂）_0.50Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.48Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_5.32Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.69Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.17Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_5.59Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_3.05Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.32Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.58Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.75Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.92Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.42Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.44Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.64Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_15.13Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_10.24Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.48Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_17.49Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_18.89Mb
-      - 德国（YouTube订阅：侯老师网络学堂）_357
-      - 德国（YouTube订阅：侯老师网络学堂）_350
+      - 加拿大（YouTube订阅：侯老师网络学堂） 3
+      - 加拿大（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 5
+      - 加拿大（YouTube订阅：侯老师网络学堂） 6
+      - 加拿大（YouTube订阅：侯老师网络学堂） 7
+      - 德国（YouTube订阅：侯老师网络学堂）
+      - 美国（YouTube订阅：侯老师网络学堂） 2
+      - 加拿大（YouTube订阅：侯老师网络学堂） 8
+      - 加拿大（YouTube订阅：侯老师网络学堂） 9
+      - 美国（YouTube订阅：侯老师网络学堂） 3
+      - 德国（YouTube订阅：侯老师网络学堂） 2
+      - 加拿大（YouTube订阅：侯老师网络学堂） 10
+      - 德国（YouTube订阅：侯老师网络学堂） 3
+      - 加拿大（YouTube订阅：侯老师网络学堂） 11
+      - 加拿大（YouTube订阅：侯老师网络学堂） 12
+      - 加拿大（YouTube订阅：侯老师网络学堂） 13
+      - 德国（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 14
+      - 加拿大（YouTube订阅：侯老师网络学堂） 15
+      - 英国（YouTube订阅：侯老师网络学堂）
+      - 加拿大（YouTube订阅：侯老师网络学堂） 16
+      - 加拿大（YouTube订阅：侯老师网络学堂） 17
+      - 德国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 2
+      - 法国（YouTube订阅：侯老师网络学堂）
+      - 加拿大（YouTube订阅：侯老师网络学堂） 18
+      - 英国（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 19
+      - 加拿大（YouTube订阅：侯老师网络学堂） 20
+      - 荷兰（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 6
+      - 加拿大（YouTube订阅：侯老师网络学堂） 21
+      - 德国（YouTube订阅：侯老师网络学堂） 6
+      - 英国（YouTube订阅：侯老师网络学堂） 7
+      - 美国（YouTube订阅：侯老师网络学堂）_ 2
+      - 加拿大（YouTube订阅：侯老师网络学堂） 22
+      - 加拿大（YouTube订阅：侯老师网络学堂） 23
+      - 英国（YouTube订阅：侯老师网络学堂） 8
+      - 英国（YouTube订阅：侯老师网络学堂） 9
+      - 加拿大（YouTube订阅：侯老师网络学堂） 24
+      - 加拿大（YouTube订阅：侯老师网络学堂） 25
+      - 英国（YouTube订阅：侯老师网络学堂） 10
+      - 加拿大（YouTube订阅：侯老师网络学堂） 26
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 11
+      - 英国（YouTube订阅：侯老师网络学堂） 12
+      - 英国（YouTube订阅：侯老师网络学堂） 13
+      - 英国（YouTube订阅：侯老师网络学堂） 14
+      - 新加坡（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 15
+      - 法国（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 16
+      - 英国（YouTube订阅：侯老师网络学堂） 17
+      - 加拿大（YouTube订阅：侯老师网络学堂） 27
+      - 英国（YouTube订阅：侯老师网络学堂） 18
+      - 未知（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 19
+      - 加拿大（YouTube订阅：侯老师网络学堂） 28
+      - 美国（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 29
+      - 未知（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 20
+      - 加拿大（YouTube订阅：侯老师网络学堂） 30
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 21
+      - 英国（YouTube订阅：侯老师网络学堂） 22
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 23
+      - 法国（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 24
+      - 英国（YouTube订阅：侯老师网络学堂） 25
+      - 英国（YouTube订阅：侯老师网络学堂） 26
+      - 英国（YouTube订阅：侯老师网络学堂） 27
+      - 英国（YouTube订阅：侯老师网络学堂） 28
+      - 英国（YouTube订阅：侯老师网络学堂） 29
+      - 英国（YouTube订阅：侯老师网络学堂） 30
+      - 法国（YouTube订阅：侯老师网络学堂） 4
+      - 未知（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 31
+      - 英国（YouTube订阅：侯老师网络学堂） 32
+      - 英国（YouTube订阅：侯老师网络学堂） 33
+      - 英国（YouTube订阅：侯老师网络学堂） 34
+      - 美国（YouTube订阅：侯老师网络学堂）_ 3
+      - 英国（YouTube订阅：侯老师网络学堂） 35
+      - 加拿大（YouTube订阅：侯老师网络学堂） 31
+      - 英国（YouTube订阅：侯老师网络学堂） 36
+      - 法国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 37
+      - 英国（YouTube订阅：侯老师网络学堂） 38
+      - 英国（YouTube订阅：侯老师网络学堂） 39
+      - 英国（YouTube订阅：侯老师网络学堂） 40
+      - 英国（YouTube订阅：侯老师网络学堂） 41
+      - 法国（YouTube订阅：侯老师网络学堂） 6
+      - 英国（YouTube订阅：侯老师网络学堂） 42
+      - 英国（YouTube订阅：侯老师网络学堂） 43
+      - 英国（YouTube订阅：侯老师网络学堂） 44
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂） 4
+      - 英国（YouTube订阅：侯老师网络学堂） 45
+      - 法国（YouTube订阅：侯老师网络学堂） 7
+      - 法国（YouTube订阅：侯老师网络学堂） 8
+      - 英国（YouTube订阅：侯老师网络学堂） 46
+      - 法国（YouTube订阅：侯老师网络学堂） 9
+      - 法国（YouTube订阅：侯老师网络学堂） 10
+      - 英国（YouTube订阅：侯老师网络学堂） 47
+      - 英国（YouTube订阅：侯老师网络学堂） 48
+      - 法国（YouTube订阅：侯老师网络学堂） 11
+      - 法国（YouTube订阅：侯老师网络学堂） 12
+      - 英国（YouTube订阅：侯老师网络学堂） 49
+      - 英国（YouTube订阅：侯老师网络学堂） 50
+      - 法国（YouTube订阅：侯老师网络学堂） 13
+      - 法国（YouTube订阅：侯老师网络学堂） 14
+      - 英国（YouTube订阅：侯老师网络学堂） 51
+      - 美国（YouTube订阅：侯老师网络学堂）_ 4
+      - 法国（YouTube订阅：侯老师网络学堂） 15
+      - 英国（YouTube订阅：侯老师网络学堂） 52
+      - 法国（YouTube订阅：侯老师网络学堂） 16
+      - 法国（YouTube订阅：侯老师网络学堂） 17
+      - 法国（YouTube订阅：侯老师网络学堂） 18
+      - 法国（YouTube订阅：侯老师网络学堂） 19
+      - 英国（YouTube订阅：侯老师网络学堂） 53
+      - 法国（YouTube订阅：侯老师网络学堂） 20
+      - 英国（YouTube订阅：侯老师网络学堂） 54
+      - 英国（YouTube订阅：侯老师网络学堂） 55
+      - 法国（YouTube订阅：侯老师网络学堂） 21
+      - 法国（YouTube订阅：侯老师网络学堂） 22
+      - 法国（YouTube订阅：侯老师网络学堂） 23
+      - 美国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 56
+      - 英国（YouTube订阅：侯老师网络学堂） 57
+      - 英国（YouTube订阅：侯老师网络学堂） 58
+      - 法国（YouTube订阅：侯老师网络学堂） 24
+      - 法国（YouTube订阅：侯老师网络学堂） 25
+      - 法国（YouTube订阅：侯老师网络学堂） 26
+      - 英国（YouTube订阅：侯老师网络学堂） 59
+      - 英国（YouTube订阅：侯老师网络学堂） 60
+      - 法国（YouTube订阅：侯老师网络学堂） 27
+      - 法国（YouTube订阅：侯老师网络学堂） 28
+      - 法国（YouTube订阅：侯老师网络学堂） 29
+      - 加拿大（YouTube订阅：侯老师网络学堂） 32
+      - 英国（YouTube订阅：侯老师网络学堂） 61
+      - 加拿大（YouTube订阅：侯老师网络学堂） 33
+      - 法国（YouTube订阅：侯老师网络学堂） 30
+      - 法国（YouTube订阅：侯老师网络学堂） 31
+      - 英国（YouTube订阅：侯老师网络学堂） 62
+      - 加拿大（YouTube订阅：侯老师网络学堂） 34
+      - 英国（YouTube订阅：侯老师网络学堂） 63
+      - 加拿大（YouTube订阅：侯老师网络学堂） 35
+      - 英国（YouTube订阅：侯老师网络学堂） 64
+      - 法国（YouTube订阅：侯老师网络学堂） 32
+      - 英国（YouTube订阅：侯老师网络学堂） 65
+      - 英国（YouTube订阅：侯老师网络学堂） 66
+      - 英国（YouTube订阅：侯老师网络学堂） 67
+      - 美国（YouTube订阅：侯老师网络学堂） 6
+      - 法国（YouTube订阅：侯老师网络学堂） 33
+      - 加拿大（YouTube订阅：侯老师网络学堂） 36
+      - 美国（YouTube订阅：侯老师网络学堂）_ 5
+      - 法国（YouTube订阅：侯老师网络学堂） 34
+      - 英国（YouTube订阅：侯老师网络学堂） 68
+      - 法国（YouTube订阅：侯老师网络学堂） 35
+      - 英国（YouTube订阅：侯老师网络学堂） 69
+      - 英国（YouTube订阅：侯老师网络学堂） 70
+      - 加拿大（YouTube订阅：侯老师网络学堂） 37
+      - 法国（YouTube订阅：侯老师网络学堂） 36
+      - 法国（YouTube订阅：侯老师网络学堂） 37
+      - 美国（YouTube订阅：侯老师网络学堂） 7
+      - 澳大利亚（YouTube订阅：侯老师网络学堂）
+      - 加拿大（YouTube订阅：侯老师网络学堂） 38
+      - 法国（YouTube订阅：侯老师网络学堂） 38
+      - 印度（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 71
+      - 韩国（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 72
+      - 美国（YouTube订阅：侯老师网络学堂） 8
+      - 法国（YouTube订阅：侯老师网络学堂） 39
+      - 加拿大（YouTube订阅：侯老师网络学堂） 39
+      - 美国（YouTube订阅：侯老师网络学堂）_1.71Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.95Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.96Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.15Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.99Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.46Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_3.42Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.72Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.88Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_9.52Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.01Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.96Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_8.08Mb
+      - 美国（YouTube订阅：侯老师网络学堂）_3.86Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.55Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.95Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_6.52Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_5.60Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.53Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_7.46Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.86Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_5.87Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.43Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.17Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.34Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_8.42Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_6.95Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_6.89Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_12.80Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.75Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.70Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.99Mb 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国（YouTube订阅：侯老师网络学堂）_2429
-      - 美国（YouTube订阅：侯老师网络学堂）_2411
-      - 美国（YouTube订阅：侯老师网络学堂）_2451
-      - 美国（YouTube订阅：侯老师网络学堂）_2469
-      - 美国（YouTube订阅：侯老师网络学堂）_2474
-      - 美国（YouTube订阅：侯老师网络学堂）_2463
-      - 美国（YouTube订阅：侯老师网络学堂）_2518
-      - 美国（YouTube订阅：侯老师网络学堂）_2537
-      - 美国（YouTube订阅：侯老师网络学堂）_2571
-      - 美国（YouTube订阅：侯老师网络学堂）_2567
-      - 美国（YouTube订阅：侯老师网络学堂）_2447
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2762
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2754
-      - 美国（YouTube订阅：侯老师网络学堂）_2465
-      - 美国（YouTube订阅：侯老师网络学堂）_2610
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2775
-      - 美国（YouTube订阅：侯老师网络学堂）_2381
-      - 美国（YouTube订阅：侯老师网络学堂）_2532
-      - 美国（YouTube订阅：侯老师网络学堂）_2408
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2797
-      - 美国（YouTube订阅：侯老师网络学堂）_2524
-      - 美国（YouTube订阅：侯老师网络学堂）_2527
-      - 美国（YouTube订阅：侯老师网络学堂）_2541
-      - 美国（YouTube订阅：侯老师网络学堂）_2588
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2767
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2770
-      - 美国（YouTube订阅：侯老师网络学堂）_2348
-      - 美国（YouTube订阅：侯老师网络学堂）_2471
-      - 美国（YouTube订阅：侯老师网络学堂）_2460
-      - 美国（YouTube订阅：侯老师网络学堂）_2491
-      - 美国（YouTube订阅：侯老师网络学堂）_2540
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2895
-      - 美国（YouTube订阅：侯老师网络学堂）_2514
-      - 美国（YouTube订阅：侯老师网络学堂）_2585
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2858
-      - 美国（YouTube订阅：侯老师网络学堂）_2476
-      - 美国（YouTube订阅：侯老师网络学堂）_2467
-      - 美国（YouTube订阅：侯老师网络学堂）_2389
-      - 美国（YouTube订阅：侯老师网络学堂）_2445
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2921
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2934
-      - 美国（YouTube订阅：侯老师网络学堂）_8.12Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_3.35Mb
-      - 加拿大（YouTube订阅：侯老师网络学堂
-      - 美国（YouTube订阅：侯老师网络学堂）_0.85Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_6.86Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_2.31Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.47Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.63Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_8.35Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.27Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.05Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.26Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.99Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.17Mb
+      - 中转（YouTube订阅：侯老师网络学堂）_4.27Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.53Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.49Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.48Mb
+      - 美国（YouTube订阅：侯老师网络学堂）_3.88Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.34Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_5.87Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.43Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2869_7.46Mb
+      - 法国（YouTube订阅：侯老师网络学堂）_550
+      - 法国（YouTube订阅：侯老师网络学堂）_549
+      - 法国（YouTube订阅：侯老师网络学堂）_546
+      - 法国（YouTube订阅：侯老师网络学堂）_535
+      - 法国（YouTube订阅：侯老师网络学堂）_562
+      - 法国（YouTube订阅：侯老师网络学堂）_548
+      - 法国（YouTube订阅：侯老师网络学堂）_522
+      - 法国（YouTube订阅：侯老师网络学堂）_555
+      - 法国（YouTube订阅：侯老师网络学堂）_534
+      - 法国（YouTube订阅：侯老师网络学堂）_579
+      - 法国（YouTube订阅：侯老师网络学堂）_533
+      - 香港中转（YouTube订阅：侯老师网络学堂）
+      - 香港中转（YouTube订阅：侯老师网络学堂） 2
+      - 新加坡中转（YouTube订阅：侯老师网络学堂）
+      - 新加坡中转（YouTube订阅：侯老师网络学堂） 2
+      - 香港中转（YouTube订阅：侯老师网络学堂） 3
+      - 韩国（YouTube订阅：侯老师网络学堂）
+      - 美国（YouTube订阅：侯老师网络学堂）_
+      - 美国（YouTube订阅：侯老师网络学堂）
       - 加拿大（YouTube订阅：侯老师网络学堂）
-      - 美国（YouTube订阅：侯老师网络学堂）_3.58Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.58Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.90Mb
       - 加拿大（YouTube订阅：侯老师网络学堂） 2
-      - 美国（YouTube订阅：侯老师网络学堂）_5.82Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.03Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.31Mb
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2887美国（YouTube订阅：侯老师网络学堂）_0.50Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.48Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_5.32Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.69Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.17Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_5.59Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_3.05Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.32Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.58Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.75Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.92Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.42Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.44Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.64Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_15.13Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_10.24Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.48Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_17.49Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_18.89Mb
-      - 德国（YouTube订阅：侯老师网络学堂）_357
-      - 德国（YouTube订阅：侯老师网络学堂）_350
+      - 加拿大（YouTube订阅：侯老师网络学堂） 3
+      - 加拿大（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 5
+      - 加拿大（YouTube订阅：侯老师网络学堂） 6
+      - 加拿大（YouTube订阅：侯老师网络学堂） 7
+      - 德国（YouTube订阅：侯老师网络学堂）
+      - 美国（YouTube订阅：侯老师网络学堂） 2
+      - 加拿大（YouTube订阅：侯老师网络学堂） 8
+      - 加拿大（YouTube订阅：侯老师网络学堂） 9
+      - 美国（YouTube订阅：侯老师网络学堂） 3
+      - 德国（YouTube订阅：侯老师网络学堂） 2
+      - 加拿大（YouTube订阅：侯老师网络学堂） 10
+      - 德国（YouTube订阅：侯老师网络学堂） 3
+      - 加拿大（YouTube订阅：侯老师网络学堂） 11
+      - 加拿大（YouTube订阅：侯老师网络学堂） 12
+      - 加拿大（YouTube订阅：侯老师网络学堂） 13
+      - 德国（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 14
+      - 加拿大（YouTube订阅：侯老师网络学堂） 15
+      - 英国（YouTube订阅：侯老师网络学堂）
+      - 加拿大（YouTube订阅：侯老师网络学堂） 16
+      - 加拿大（YouTube订阅：侯老师网络学堂） 17
+      - 德国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 2
+      - 法国（YouTube订阅：侯老师网络学堂）
+      - 加拿大（YouTube订阅：侯老师网络学堂） 18
+      - 英国（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 19
+      - 加拿大（YouTube订阅：侯老师网络学堂） 20
+      - 荷兰（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 6
+      - 加拿大（YouTube订阅：侯老师网络学堂） 21
+      - 德国（YouTube订阅：侯老师网络学堂） 6
+      - 英国（YouTube订阅：侯老师网络学堂） 7
+      - 美国（YouTube订阅：侯老师网络学堂）_ 2
+      - 加拿大（YouTube订阅：侯老师网络学堂） 22
+      - 加拿大（YouTube订阅：侯老师网络学堂） 23
+      - 英国（YouTube订阅：侯老师网络学堂） 8
+      - 英国（YouTube订阅：侯老师网络学堂） 9
+      - 加拿大（YouTube订阅：侯老师网络学堂） 24
+      - 加拿大（YouTube订阅：侯老师网络学堂） 25
+      - 英国（YouTube订阅：侯老师网络学堂） 10
+      - 加拿大（YouTube订阅：侯老师网络学堂） 26
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 11
+      - 英国（YouTube订阅：侯老师网络学堂） 12
+      - 英国（YouTube订阅：侯老师网络学堂） 13
+      - 英国（YouTube订阅：侯老师网络学堂） 14
+      - 新加坡（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 15
+      - 法国（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 16
+      - 英国（YouTube订阅：侯老师网络学堂） 17
+      - 加拿大（YouTube订阅：侯老师网络学堂） 27
+      - 英国（YouTube订阅：侯老师网络学堂） 18
+      - 未知（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 19
+      - 加拿大（YouTube订阅：侯老师网络学堂） 28
+      - 美国（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 29
+      - 未知（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 20
+      - 加拿大（YouTube订阅：侯老师网络学堂） 30
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 21
+      - 英国（YouTube订阅：侯老师网络学堂） 22
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 23
+      - 法国（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 24
+      - 英国（YouTube订阅：侯老师网络学堂） 25
+      - 英国（YouTube订阅：侯老师网络学堂） 26
+      - 英国（YouTube订阅：侯老师网络学堂） 27
+      - 英国（YouTube订阅：侯老师网络学堂） 28
+      - 英国（YouTube订阅：侯老师网络学堂） 29
+      - 英国（YouTube订阅：侯老师网络学堂） 30
+      - 法国（YouTube订阅：侯老师网络学堂） 4
+      - 未知（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 31
+      - 英国（YouTube订阅：侯老师网络学堂） 32
+      - 英国（YouTube订阅：侯老师网络学堂） 33
+      - 英国（YouTube订阅：侯老师网络学堂） 34
+      - 美国（YouTube订阅：侯老师网络学堂）_ 3
+      - 英国（YouTube订阅：侯老师网络学堂） 35
+      - 加拿大（YouTube订阅：侯老师网络学堂） 31
+      - 英国（YouTube订阅：侯老师网络学堂） 36
+      - 法国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 37
+      - 英国（YouTube订阅：侯老师网络学堂） 38
+      - 英国（YouTube订阅：侯老师网络学堂） 39
+      - 英国（YouTube订阅：侯老师网络学堂） 40
+      - 英国（YouTube订阅：侯老师网络学堂） 41
+      - 法国（YouTube订阅：侯老师网络学堂） 6
+      - 英国（YouTube订阅：侯老师网络学堂） 42
+      - 英国（YouTube订阅：侯老师网络学堂） 43
+      - 英国（YouTube订阅：侯老师网络学堂） 44
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂） 4
+      - 英国（YouTube订阅：侯老师网络学堂） 45
+      - 法国（YouTube订阅：侯老师网络学堂） 7
+      - 法国（YouTube订阅：侯老师网络学堂） 8
+      - 英国（YouTube订阅：侯老师网络学堂） 46
+      - 法国（YouTube订阅：侯老师网络学堂） 9
+      - 法国（YouTube订阅：侯老师网络学堂） 10
+      - 英国（YouTube订阅：侯老师网络学堂） 47
+      - 英国（YouTube订阅：侯老师网络学堂） 48
+      - 法国（YouTube订阅：侯老师网络学堂） 11
+      - 法国（YouTube订阅：侯老师网络学堂） 12
+      - 英国（YouTube订阅：侯老师网络学堂） 49
+      - 英国（YouTube订阅：侯老师网络学堂） 50
+      - 法国（YouTube订阅：侯老师网络学堂） 13
+      - 法国（YouTube订阅：侯老师网络学堂） 14
+      - 英国（YouTube订阅：侯老师网络学堂） 51
+      - 美国（YouTube订阅：侯老师网络学堂）_ 4
+      - 法国（YouTube订阅：侯老师网络学堂） 15
+      - 英国（YouTube订阅：侯老师网络学堂） 52
+      - 法国（YouTube订阅：侯老师网络学堂） 16
+      - 法国（YouTube订阅：侯老师网络学堂） 17
+      - 法国（YouTube订阅：侯老师网络学堂） 18
+      - 法国（YouTube订阅：侯老师网络学堂） 19
+      - 英国（YouTube订阅：侯老师网络学堂） 53
+      - 法国（YouTube订阅：侯老师网络学堂） 20
+      - 英国（YouTube订阅：侯老师网络学堂） 54
+      - 英国（YouTube订阅：侯老师网络学堂） 55
+      - 法国（YouTube订阅：侯老师网络学堂） 21
+      - 法国（YouTube订阅：侯老师网络学堂） 22
+      - 法国（YouTube订阅：侯老师网络学堂） 23
+      - 美国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 56
+      - 英国（YouTube订阅：侯老师网络学堂） 57
+      - 英国（YouTube订阅：侯老师网络学堂） 58
+      - 法国（YouTube订阅：侯老师网络学堂） 24
+      - 法国（YouTube订阅：侯老师网络学堂） 25
+      - 法国（YouTube订阅：侯老师网络学堂） 26
+      - 英国（YouTube订阅：侯老师网络学堂） 59
+      - 英国（YouTube订阅：侯老师网络学堂） 60
+      - 法国（YouTube订阅：侯老师网络学堂） 27
+      - 法国（YouTube订阅：侯老师网络学堂） 28
+      - 法国（YouTube订阅：侯老师网络学堂） 29
+      - 加拿大（YouTube订阅：侯老师网络学堂） 32
+      - 英国（YouTube订阅：侯老师网络学堂） 61
+      - 加拿大（YouTube订阅：侯老师网络学堂） 33
+      - 法国（YouTube订阅：侯老师网络学堂） 30
+      - 法国（YouTube订阅：侯老师网络学堂） 31
+      - 英国（YouTube订阅：侯老师网络学堂） 62
+      - 加拿大（YouTube订阅：侯老师网络学堂） 34
+      - 英国（YouTube订阅：侯老师网络学堂） 63
+      - 加拿大（YouTube订阅：侯老师网络学堂） 35
+      - 英国（YouTube订阅：侯老师网络学堂） 64
+      - 法国（YouTube订阅：侯老师网络学堂） 32
+      - 英国（YouTube订阅：侯老师网络学堂） 65
+      - 英国（YouTube订阅：侯老师网络学堂） 66
+      - 英国（YouTube订阅：侯老师网络学堂） 67
+      - 美国（YouTube订阅：侯老师网络学堂） 6
+      - 法国（YouTube订阅：侯老师网络学堂） 33
+      - 加拿大（YouTube订阅：侯老师网络学堂） 36
+      - 美国（YouTube订阅：侯老师网络学堂）_ 5
+      - 法国（YouTube订阅：侯老师网络学堂） 34
+      - 英国（YouTube订阅：侯老师网络学堂） 68
+      - 法国（YouTube订阅：侯老师网络学堂） 35
+      - 英国（YouTube订阅：侯老师网络学堂） 69
+      - 英国（YouTube订阅：侯老师网络学堂） 70
+      - 加拿大（YouTube订阅：侯老师网络学堂） 37
+      - 法国（YouTube订阅：侯老师网络学堂） 36
+      - 法国（YouTube订阅：侯老师网络学堂） 37
+      - 美国（YouTube订阅：侯老师网络学堂） 7
+      - 澳大利亚（YouTube订阅：侯老师网络学堂）
+      - 加拿大（YouTube订阅：侯老师网络学堂） 38
+      - 法国（YouTube订阅：侯老师网络学堂） 38
+      - 印度（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 71
+      - 韩国（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 72
+      - 美国（YouTube订阅：侯老师网络学堂） 8
+      - 法国（YouTube订阅：侯老师网络学堂） 39
+      - 加拿大（YouTube订阅：侯老师网络学堂） 39
+      - 美国（YouTube订阅：侯老师网络学堂）_1.71Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.95Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.96Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.15Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.99Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.46Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_3.42Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.72Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.88Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_9.52Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.01Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.96Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_8.08Mb
+      - 美国（YouTube订阅：侯老师网络学堂）_3.86Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.55Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.95Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_6.52Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_5.60Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.53Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_7.46Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.86Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_5.87Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.43Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.17Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.34Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_8.42Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_6.95Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_6.89Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_12.80Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.75Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.70Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.99Mb 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -368,355 +1004,994 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国（YouTube订阅：侯老师网络学堂）_2429
-      - 美国（YouTube订阅：侯老师网络学堂）_2411
-      - 美国（YouTube订阅：侯老师网络学堂）_2451
-      - 美国（YouTube订阅：侯老师网络学堂）_2469
-      - 美国（YouTube订阅：侯老师网络学堂）_2474
-      - 美国（YouTube订阅：侯老师网络学堂）_2463
-      - 美国（YouTube订阅：侯老师网络学堂）_2518
-      - 美国（YouTube订阅：侯老师网络学堂）_2537
-      - 美国（YouTube订阅：侯老师网络学堂）_2571
-      - 美国（YouTube订阅：侯老师网络学堂）_2567
-      - 美国（YouTube订阅：侯老师网络学堂）_2447
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2762
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2754
-      - 美国（YouTube订阅：侯老师网络学堂）_2465
-      - 美国（YouTube订阅：侯老师网络学堂）_2610
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2775
-      - 美国（YouTube订阅：侯老师网络学堂）_2381
-      - 美国（YouTube订阅：侯老师网络学堂）_2532
-      - 美国（YouTube订阅：侯老师网络学堂）_2408
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2797
-      - 美国（YouTube订阅：侯老师网络学堂）_2524
-      - 美国（YouTube订阅：侯老师网络学堂）_2527
-      - 美国（YouTube订阅：侯老师网络学堂）_2541
-      - 美国（YouTube订阅：侯老师网络学堂）_2588
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2767
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2770
-      - 美国（YouTube订阅：侯老师网络学堂）_2348
-      - 美国（YouTube订阅：侯老师网络学堂）_2471
-      - 美国（YouTube订阅：侯老师网络学堂）_2460
-      - 美国（YouTube订阅：侯老师网络学堂）_2491
-      - 美国（YouTube订阅：侯老师网络学堂）_2540
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2895
-      - 美国（YouTube订阅：侯老师网络学堂）_2514
-      - 美国（YouTube订阅：侯老师网络学堂）_2585
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2858
-      - 美国（YouTube订阅：侯老师网络学堂）_2476
-      - 美国（YouTube订阅：侯老师网络学堂）_2467
-      - 美国（YouTube订阅：侯老师网络学堂）_2389
-      - 美国（YouTube订阅：侯老师网络学堂）_2445
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2921
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2934
-      - 美国（YouTube订阅：侯老师网络学堂）_8.12Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_3.35Mb
-      - 加拿大（YouTube订阅：侯老师网络学堂
-      - 美国（YouTube订阅：侯老师网络学堂）_0.85Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_6.86Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_2.31Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.47Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.63Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_8.35Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.27Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.05Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.26Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.99Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.17Mb
+      - 中转（YouTube订阅：侯老师网络学堂）_4.27Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.53Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.49Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.48Mb
+      - 美国（YouTube订阅：侯老师网络学堂）_3.88Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.34Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_5.87Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.43Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2869_7.46Mb
+      - 法国（YouTube订阅：侯老师网络学堂）_550
+      - 法国（YouTube订阅：侯老师网络学堂）_549
+      - 法国（YouTube订阅：侯老师网络学堂）_546
+      - 法国（YouTube订阅：侯老师网络学堂）_535
+      - 法国（YouTube订阅：侯老师网络学堂）_562
+      - 法国（YouTube订阅：侯老师网络学堂）_548
+      - 法国（YouTube订阅：侯老师网络学堂）_522
+      - 法国（YouTube订阅：侯老师网络学堂）_555
+      - 法国（YouTube订阅：侯老师网络学堂）_534
+      - 法国（YouTube订阅：侯老师网络学堂）_579
+      - 法国（YouTube订阅：侯老师网络学堂）_533
+      - 香港中转（YouTube订阅：侯老师网络学堂）
+      - 香港中转（YouTube订阅：侯老师网络学堂） 2
+      - 新加坡中转（YouTube订阅：侯老师网络学堂）
+      - 新加坡中转（YouTube订阅：侯老师网络学堂） 2
+      - 香港中转（YouTube订阅：侯老师网络学堂） 3
+      - 韩国（YouTube订阅：侯老师网络学堂）
+      - 美国（YouTube订阅：侯老师网络学堂）_
+      - 美国（YouTube订阅：侯老师网络学堂）
       - 加拿大（YouTube订阅：侯老师网络学堂）
-      - 美国（YouTube订阅：侯老师网络学堂）_3.58Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.58Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.90Mb
       - 加拿大（YouTube订阅：侯老师网络学堂） 2
-      - 美国（YouTube订阅：侯老师网络学堂）_5.82Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.03Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.31Mb
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2887美国（YouTube订阅：侯老师网络学堂）_0.50Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.48Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_5.32Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.69Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.17Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_5.59Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_3.05Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.32Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.58Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.75Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.92Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.42Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.44Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.64Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_15.13Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_10.24Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.48Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_17.49Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_18.89Mb
-      - 德国（YouTube订阅：侯老师网络学堂）_357
-      - 德国（YouTube订阅：侯老师网络学堂）_350
+      - 加拿大（YouTube订阅：侯老师网络学堂） 3
+      - 加拿大（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 5
+      - 加拿大（YouTube订阅：侯老师网络学堂） 6
+      - 加拿大（YouTube订阅：侯老师网络学堂） 7
+      - 德国（YouTube订阅：侯老师网络学堂）
+      - 美国（YouTube订阅：侯老师网络学堂） 2
+      - 加拿大（YouTube订阅：侯老师网络学堂） 8
+      - 加拿大（YouTube订阅：侯老师网络学堂） 9
+      - 美国（YouTube订阅：侯老师网络学堂） 3
+      - 德国（YouTube订阅：侯老师网络学堂） 2
+      - 加拿大（YouTube订阅：侯老师网络学堂） 10
+      - 德国（YouTube订阅：侯老师网络学堂） 3
+      - 加拿大（YouTube订阅：侯老师网络学堂） 11
+      - 加拿大（YouTube订阅：侯老师网络学堂） 12
+      - 加拿大（YouTube订阅：侯老师网络学堂） 13
+      - 德国（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 14
+      - 加拿大（YouTube订阅：侯老师网络学堂） 15
+      - 英国（YouTube订阅：侯老师网络学堂）
+      - 加拿大（YouTube订阅：侯老师网络学堂） 16
+      - 加拿大（YouTube订阅：侯老师网络学堂） 17
+      - 德国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 2
+      - 法国（YouTube订阅：侯老师网络学堂）
+      - 加拿大（YouTube订阅：侯老师网络学堂） 18
+      - 英国（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 19
+      - 加拿大（YouTube订阅：侯老师网络学堂） 20
+      - 荷兰（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 6
+      - 加拿大（YouTube订阅：侯老师网络学堂） 21
+      - 德国（YouTube订阅：侯老师网络学堂） 6
+      - 英国（YouTube订阅：侯老师网络学堂） 7
+      - 美国（YouTube订阅：侯老师网络学堂）_ 2
+      - 加拿大（YouTube订阅：侯老师网络学堂） 22
+      - 加拿大（YouTube订阅：侯老师网络学堂） 23
+      - 英国（YouTube订阅：侯老师网络学堂） 8
+      - 英国（YouTube订阅：侯老师网络学堂） 9
+      - 加拿大（YouTube订阅：侯老师网络学堂） 24
+      - 加拿大（YouTube订阅：侯老师网络学堂） 25
+      - 英国（YouTube订阅：侯老师网络学堂） 10
+      - 加拿大（YouTube订阅：侯老师网络学堂） 26
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 11
+      - 英国（YouTube订阅：侯老师网络学堂） 12
+      - 英国（YouTube订阅：侯老师网络学堂） 13
+      - 英国（YouTube订阅：侯老师网络学堂） 14
+      - 新加坡（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 15
+      - 法国（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 16
+      - 英国（YouTube订阅：侯老师网络学堂） 17
+      - 加拿大（YouTube订阅：侯老师网络学堂） 27
+      - 英国（YouTube订阅：侯老师网络学堂） 18
+      - 未知（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 19
+      - 加拿大（YouTube订阅：侯老师网络学堂） 28
+      - 美国（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 29
+      - 未知（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 20
+      - 加拿大（YouTube订阅：侯老师网络学堂） 30
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 21
+      - 英国（YouTube订阅：侯老师网络学堂） 22
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 23
+      - 法国（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 24
+      - 英国（YouTube订阅：侯老师网络学堂） 25
+      - 英国（YouTube订阅：侯老师网络学堂） 26
+      - 英国（YouTube订阅：侯老师网络学堂） 27
+      - 英国（YouTube订阅：侯老师网络学堂） 28
+      - 英国（YouTube订阅：侯老师网络学堂） 29
+      - 英国（YouTube订阅：侯老师网络学堂） 30
+      - 法国（YouTube订阅：侯老师网络学堂） 4
+      - 未知（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 31
+      - 英国（YouTube订阅：侯老师网络学堂） 32
+      - 英国（YouTube订阅：侯老师网络学堂） 33
+      - 英国（YouTube订阅：侯老师网络学堂） 34
+      - 美国（YouTube订阅：侯老师网络学堂）_ 3
+      - 英国（YouTube订阅：侯老师网络学堂） 35
+      - 加拿大（YouTube订阅：侯老师网络学堂） 31
+      - 英国（YouTube订阅：侯老师网络学堂） 36
+      - 法国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 37
+      - 英国（YouTube订阅：侯老师网络学堂） 38
+      - 英国（YouTube订阅：侯老师网络学堂） 39
+      - 英国（YouTube订阅：侯老师网络学堂） 40
+      - 英国（YouTube订阅：侯老师网络学堂） 41
+      - 法国（YouTube订阅：侯老师网络学堂） 6
+      - 英国（YouTube订阅：侯老师网络学堂） 42
+      - 英国（YouTube订阅：侯老师网络学堂） 43
+      - 英国（YouTube订阅：侯老师网络学堂） 44
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂） 4
+      - 英国（YouTube订阅：侯老师网络学堂） 45
+      - 法国（YouTube订阅：侯老师网络学堂） 7
+      - 法国（YouTube订阅：侯老师网络学堂） 8
+      - 英国（YouTube订阅：侯老师网络学堂） 46
+      - 法国（YouTube订阅：侯老师网络学堂） 9
+      - 法国（YouTube订阅：侯老师网络学堂） 10
+      - 英国（YouTube订阅：侯老师网络学堂） 47
+      - 英国（YouTube订阅：侯老师网络学堂） 48
+      - 法国（YouTube订阅：侯老师网络学堂） 11
+      - 法国（YouTube订阅：侯老师网络学堂） 12
+      - 英国（YouTube订阅：侯老师网络学堂） 49
+      - 英国（YouTube订阅：侯老师网络学堂） 50
+      - 法国（YouTube订阅：侯老师网络学堂） 13
+      - 法国（YouTube订阅：侯老师网络学堂） 14
+      - 英国（YouTube订阅：侯老师网络学堂） 51
+      - 美国（YouTube订阅：侯老师网络学堂）_ 4
+      - 法国（YouTube订阅：侯老师网络学堂） 15
+      - 英国（YouTube订阅：侯老师网络学堂） 52
+      - 法国（YouTube订阅：侯老师网络学堂） 16
+      - 法国（YouTube订阅：侯老师网络学堂） 17
+      - 法国（YouTube订阅：侯老师网络学堂） 18
+      - 法国（YouTube订阅：侯老师网络学堂） 19
+      - 英国（YouTube订阅：侯老师网络学堂） 53
+      - 法国（YouTube订阅：侯老师网络学堂） 20
+      - 英国（YouTube订阅：侯老师网络学堂） 54
+      - 英国（YouTube订阅：侯老师网络学堂） 55
+      - 法国（YouTube订阅：侯老师网络学堂） 21
+      - 法国（YouTube订阅：侯老师网络学堂） 22
+      - 法国（YouTube订阅：侯老师网络学堂） 23
+      - 美国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 56
+      - 英国（YouTube订阅：侯老师网络学堂） 57
+      - 英国（YouTube订阅：侯老师网络学堂） 58
+      - 法国（YouTube订阅：侯老师网络学堂） 24
+      - 法国（YouTube订阅：侯老师网络学堂） 25
+      - 法国（YouTube订阅：侯老师网络学堂） 26
+      - 英国（YouTube订阅：侯老师网络学堂） 59
+      - 英国（YouTube订阅：侯老师网络学堂） 60
+      - 法国（YouTube订阅：侯老师网络学堂） 27
+      - 法国（YouTube订阅：侯老师网络学堂） 28
+      - 法国（YouTube订阅：侯老师网络学堂） 29
+      - 加拿大（YouTube订阅：侯老师网络学堂） 32
+      - 英国（YouTube订阅：侯老师网络学堂） 61
+      - 加拿大（YouTube订阅：侯老师网络学堂） 33
+      - 法国（YouTube订阅：侯老师网络学堂） 30
+      - 法国（YouTube订阅：侯老师网络学堂） 31
+      - 英国（YouTube订阅：侯老师网络学堂） 62
+      - 加拿大（YouTube订阅：侯老师网络学堂） 34
+      - 英国（YouTube订阅：侯老师网络学堂） 63
+      - 加拿大（YouTube订阅：侯老师网络学堂） 35
+      - 英国（YouTube订阅：侯老师网络学堂） 64
+      - 法国（YouTube订阅：侯老师网络学堂） 32
+      - 英国（YouTube订阅：侯老师网络学堂） 65
+      - 英国（YouTube订阅：侯老师网络学堂） 66
+      - 英国（YouTube订阅：侯老师网络学堂） 67
+      - 美国（YouTube订阅：侯老师网络学堂） 6
+      - 法国（YouTube订阅：侯老师网络学堂） 33
+      - 加拿大（YouTube订阅：侯老师网络学堂） 36
+      - 美国（YouTube订阅：侯老师网络学堂）_ 5
+      - 法国（YouTube订阅：侯老师网络学堂） 34
+      - 英国（YouTube订阅：侯老师网络学堂） 68
+      - 法国（YouTube订阅：侯老师网络学堂） 35
+      - 英国（YouTube订阅：侯老师网络学堂） 69
+      - 英国（YouTube订阅：侯老师网络学堂） 70
+      - 加拿大（YouTube订阅：侯老师网络学堂） 37
+      - 法国（YouTube订阅：侯老师网络学堂） 36
+      - 法国（YouTube订阅：侯老师网络学堂） 37
+      - 美国（YouTube订阅：侯老师网络学堂） 7
+      - 澳大利亚（YouTube订阅：侯老师网络学堂）
+      - 加拿大（YouTube订阅：侯老师网络学堂） 38
+      - 法国（YouTube订阅：侯老师网络学堂） 38
+      - 印度（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 71
+      - 韩国（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 72
+      - 美国（YouTube订阅：侯老师网络学堂） 8
+      - 法国（YouTube订阅：侯老师网络学堂） 39
+      - 加拿大（YouTube订阅：侯老师网络学堂） 39
+      - 美国（YouTube订阅：侯老师网络学堂）_1.71Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.95Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.96Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.15Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.99Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.46Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_3.42Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.72Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.88Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_9.52Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.01Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.96Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_8.08Mb
+      - 美国（YouTube订阅：侯老师网络学堂）_3.86Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.55Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.95Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_6.52Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_5.60Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.53Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_7.46Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.86Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_5.87Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.43Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.17Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.34Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_8.42Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_6.95Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_6.89Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_12.80Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.75Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.70Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.99Mb 3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港中转（YouTube订阅：侯老师网络学堂）
+      - 香港中转（YouTube订阅：侯老师网络学堂） 2
+      - 香港中转（YouTube订阅：侯老师网络学堂） 3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 美国（YouTube订阅：侯老师网络学堂）_2429
-      - 美国（YouTube订阅：侯老师网络学堂）_2411
-      - 美国（YouTube订阅：侯老师网络学堂）_2451
-      - 美国（YouTube订阅：侯老师网络学堂）_2469
-      - 美国（YouTube订阅：侯老师网络学堂）_2474
-      - 美国（YouTube订阅：侯老师网络学堂）_2463
-      - 美国（YouTube订阅：侯老师网络学堂）_2518
-      - 美国（YouTube订阅：侯老师网络学堂）_2537
-      - 美国（YouTube订阅：侯老师网络学堂）_2571
-      - 美国（YouTube订阅：侯老师网络学堂）_2567
-      - 美国（YouTube订阅：侯老师网络学堂）_2447
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2762
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2754
-      - 美国（YouTube订阅：侯老师网络学堂）_2465
-      - 美国（YouTube订阅：侯老师网络学堂）_2610
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2775
-      - 美国（YouTube订阅：侯老师网络学堂）_2381
-      - 美国（YouTube订阅：侯老师网络学堂）_2532
-      - 美国（YouTube订阅：侯老师网络学堂）_2408
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2797
-      - 美国（YouTube订阅：侯老师网络学堂）_2524
-      - 美国（YouTube订阅：侯老师网络学堂）_2527
-      - 美国（YouTube订阅：侯老师网络学堂）_2541
-      - 美国（YouTube订阅：侯老师网络学堂）_2588
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2767
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2770
-      - 美国（YouTube订阅：侯老师网络学堂）_2348
-      - 美国（YouTube订阅：侯老师网络学堂）_2471
-      - 美国（YouTube订阅：侯老师网络学堂）_2460
-      - 美国（YouTube订阅：侯老师网络学堂）_2491
-      - 美国（YouTube订阅：侯老师网络学堂）_2540
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2895
-      - 美国（YouTube订阅：侯老师网络学堂）_2514
-      - 美国（YouTube订阅：侯老师网络学堂）_2585
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2858
-      - 美国（YouTube订阅：侯老师网络学堂）_2476
-      - 美国（YouTube订阅：侯老师网络学堂）_2467
-      - 美国（YouTube订阅：侯老师网络学堂）_2389
-      - 美国（YouTube订阅：侯老师网络学堂）_2445
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2921
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2934
-      - 美国（YouTube订阅：侯老师网络学堂）_8.12Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_3.35Mb
-      - 加拿大（YouTube订阅：侯老师网络学堂
-      - 美国（YouTube订阅：侯老师网络学堂）_0.85Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_6.86Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_2.31Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.47Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.63Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_8.35Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.27Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.05Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.26Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.99Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.17Mb
+      - 中转（YouTube订阅：侯老师网络学堂）_4.27Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.53Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.49Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.48Mb
+      - 美国（YouTube订阅：侯老师网络学堂）_3.88Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.34Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_5.87Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.43Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2869_7.46Mb
+      - 法国（YouTube订阅：侯老师网络学堂）_550
+      - 法国（YouTube订阅：侯老师网络学堂）_549
+      - 法国（YouTube订阅：侯老师网络学堂）_546
+      - 法国（YouTube订阅：侯老师网络学堂）_535
+      - 法国（YouTube订阅：侯老师网络学堂）_562
+      - 法国（YouTube订阅：侯老师网络学堂）_548
+      - 法国（YouTube订阅：侯老师网络学堂）_522
+      - 法国（YouTube订阅：侯老师网络学堂）_555
+      - 法国（YouTube订阅：侯老师网络学堂）_534
+      - 法国（YouTube订阅：侯老师网络学堂）_579
+      - 法国（YouTube订阅：侯老师网络学堂）_533
+      - 香港中转（YouTube订阅：侯老师网络学堂）
+      - 香港中转（YouTube订阅：侯老师网络学堂） 2
+      - 新加坡中转（YouTube订阅：侯老师网络学堂）
+      - 新加坡中转（YouTube订阅：侯老师网络学堂） 2
+      - 香港中转（YouTube订阅：侯老师网络学堂） 3
+      - 韩国（YouTube订阅：侯老师网络学堂）
+      - 美国（YouTube订阅：侯老师网络学堂）_
+      - 美国（YouTube订阅：侯老师网络学堂）
       - 加拿大（YouTube订阅：侯老师网络学堂）
-      - 美国（YouTube订阅：侯老师网络学堂）_3.58Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.58Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.90Mb
       - 加拿大（YouTube订阅：侯老师网络学堂） 2
-      - 美国（YouTube订阅：侯老师网络学堂）_5.82Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.03Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.31Mb
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2887美国（YouTube订阅：侯老师网络学堂）_0.50Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.48Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_5.32Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.69Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.17Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_5.59Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_3.05Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.32Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.58Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.75Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.92Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.42Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.44Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.64Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_15.13Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_10.24Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.48Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_17.49Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_18.89Mb
-      - 德国（YouTube订阅：侯老师网络学堂）_357
-      - 德国（YouTube订阅：侯老师网络学堂）_350
+      - 加拿大（YouTube订阅：侯老师网络学堂） 3
+      - 加拿大（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 5
+      - 加拿大（YouTube订阅：侯老师网络学堂） 6
+      - 加拿大（YouTube订阅：侯老师网络学堂） 7
+      - 德国（YouTube订阅：侯老师网络学堂）
+      - 美国（YouTube订阅：侯老师网络学堂） 2
+      - 加拿大（YouTube订阅：侯老师网络学堂） 8
+      - 加拿大（YouTube订阅：侯老师网络学堂） 9
+      - 美国（YouTube订阅：侯老师网络学堂） 3
+      - 德国（YouTube订阅：侯老师网络学堂） 2
+      - 加拿大（YouTube订阅：侯老师网络学堂） 10
+      - 德国（YouTube订阅：侯老师网络学堂） 3
+      - 加拿大（YouTube订阅：侯老师网络学堂） 11
+      - 加拿大（YouTube订阅：侯老师网络学堂） 12
+      - 加拿大（YouTube订阅：侯老师网络学堂） 13
+      - 德国（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 14
+      - 加拿大（YouTube订阅：侯老师网络学堂） 15
+      - 英国（YouTube订阅：侯老师网络学堂）
+      - 加拿大（YouTube订阅：侯老师网络学堂） 16
+      - 加拿大（YouTube订阅：侯老师网络学堂） 17
+      - 德国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 2
+      - 法国（YouTube订阅：侯老师网络学堂）
+      - 加拿大（YouTube订阅：侯老师网络学堂） 18
+      - 英国（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 19
+      - 加拿大（YouTube订阅：侯老师网络学堂） 20
+      - 荷兰（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 6
+      - 加拿大（YouTube订阅：侯老师网络学堂） 21
+      - 德国（YouTube订阅：侯老师网络学堂） 6
+      - 英国（YouTube订阅：侯老师网络学堂） 7
+      - 美国（YouTube订阅：侯老师网络学堂）_ 2
+      - 加拿大（YouTube订阅：侯老师网络学堂） 22
+      - 加拿大（YouTube订阅：侯老师网络学堂） 23
+      - 英国（YouTube订阅：侯老师网络学堂） 8
+      - 英国（YouTube订阅：侯老师网络学堂） 9
+      - 加拿大（YouTube订阅：侯老师网络学堂） 24
+      - 加拿大（YouTube订阅：侯老师网络学堂） 25
+      - 英国（YouTube订阅：侯老师网络学堂） 10
+      - 加拿大（YouTube订阅：侯老师网络学堂） 26
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 11
+      - 英国（YouTube订阅：侯老师网络学堂） 12
+      - 英国（YouTube订阅：侯老师网络学堂） 13
+      - 英国（YouTube订阅：侯老师网络学堂） 14
+      - 新加坡（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 15
+      - 法国（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 16
+      - 英国（YouTube订阅：侯老师网络学堂） 17
+      - 加拿大（YouTube订阅：侯老师网络学堂） 27
+      - 英国（YouTube订阅：侯老师网络学堂） 18
+      - 未知（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 19
+      - 加拿大（YouTube订阅：侯老师网络学堂） 28
+      - 美国（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 29
+      - 未知（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 20
+      - 加拿大（YouTube订阅：侯老师网络学堂） 30
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 21
+      - 英国（YouTube订阅：侯老师网络学堂） 22
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 23
+      - 法国（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 24
+      - 英国（YouTube订阅：侯老师网络学堂） 25
+      - 英国（YouTube订阅：侯老师网络学堂） 26
+      - 英国（YouTube订阅：侯老师网络学堂） 27
+      - 英国（YouTube订阅：侯老师网络学堂） 28
+      - 英国（YouTube订阅：侯老师网络学堂） 29
+      - 英国（YouTube订阅：侯老师网络学堂） 30
+      - 法国（YouTube订阅：侯老师网络学堂） 4
+      - 未知（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 31
+      - 英国（YouTube订阅：侯老师网络学堂） 32
+      - 英国（YouTube订阅：侯老师网络学堂） 33
+      - 英国（YouTube订阅：侯老师网络学堂） 34
+      - 美国（YouTube订阅：侯老师网络学堂）_ 3
+      - 英国（YouTube订阅：侯老师网络学堂） 35
+      - 加拿大（YouTube订阅：侯老师网络学堂） 31
+      - 英国（YouTube订阅：侯老师网络学堂） 36
+      - 法国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 37
+      - 英国（YouTube订阅：侯老师网络学堂） 38
+      - 英国（YouTube订阅：侯老师网络学堂） 39
+      - 英国（YouTube订阅：侯老师网络学堂） 40
+      - 英国（YouTube订阅：侯老师网络学堂） 41
+      - 法国（YouTube订阅：侯老师网络学堂） 6
+      - 英国（YouTube订阅：侯老师网络学堂） 42
+      - 英国（YouTube订阅：侯老师网络学堂） 43
+      - 英国（YouTube订阅：侯老师网络学堂） 44
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂） 4
+      - 英国（YouTube订阅：侯老师网络学堂） 45
+      - 法国（YouTube订阅：侯老师网络学堂） 7
+      - 法国（YouTube订阅：侯老师网络学堂） 8
+      - 英国（YouTube订阅：侯老师网络学堂） 46
+      - 法国（YouTube订阅：侯老师网络学堂） 9
+      - 法国（YouTube订阅：侯老师网络学堂） 10
+      - 英国（YouTube订阅：侯老师网络学堂） 47
+      - 英国（YouTube订阅：侯老师网络学堂） 48
+      - 法国（YouTube订阅：侯老师网络学堂） 11
+      - 法国（YouTube订阅：侯老师网络学堂） 12
+      - 英国（YouTube订阅：侯老师网络学堂） 49
+      - 英国（YouTube订阅：侯老师网络学堂） 50
+      - 法国（YouTube订阅：侯老师网络学堂） 13
+      - 法国（YouTube订阅：侯老师网络学堂） 14
+      - 英国（YouTube订阅：侯老师网络学堂） 51
+      - 美国（YouTube订阅：侯老师网络学堂）_ 4
+      - 法国（YouTube订阅：侯老师网络学堂） 15
+      - 英国（YouTube订阅：侯老师网络学堂） 52
+      - 法国（YouTube订阅：侯老师网络学堂） 16
+      - 法国（YouTube订阅：侯老师网络学堂） 17
+      - 法国（YouTube订阅：侯老师网络学堂） 18
+      - 法国（YouTube订阅：侯老师网络学堂） 19
+      - 英国（YouTube订阅：侯老师网络学堂） 53
+      - 法国（YouTube订阅：侯老师网络学堂） 20
+      - 英国（YouTube订阅：侯老师网络学堂） 54
+      - 英国（YouTube订阅：侯老师网络学堂） 55
+      - 法国（YouTube订阅：侯老师网络学堂） 21
+      - 法国（YouTube订阅：侯老师网络学堂） 22
+      - 法国（YouTube订阅：侯老师网络学堂） 23
+      - 美国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 56
+      - 英国（YouTube订阅：侯老师网络学堂） 57
+      - 英国（YouTube订阅：侯老师网络学堂） 58
+      - 法国（YouTube订阅：侯老师网络学堂） 24
+      - 法国（YouTube订阅：侯老师网络学堂） 25
+      - 法国（YouTube订阅：侯老师网络学堂） 26
+      - 英国（YouTube订阅：侯老师网络学堂） 59
+      - 英国（YouTube订阅：侯老师网络学堂） 60
+      - 法国（YouTube订阅：侯老师网络学堂） 27
+      - 法国（YouTube订阅：侯老师网络学堂） 28
+      - 法国（YouTube订阅：侯老师网络学堂） 29
+      - 加拿大（YouTube订阅：侯老师网络学堂） 32
+      - 英国（YouTube订阅：侯老师网络学堂） 61
+      - 加拿大（YouTube订阅：侯老师网络学堂） 33
+      - 法国（YouTube订阅：侯老师网络学堂） 30
+      - 法国（YouTube订阅：侯老师网络学堂） 31
+      - 英国（YouTube订阅：侯老师网络学堂） 62
+      - 加拿大（YouTube订阅：侯老师网络学堂） 34
+      - 英国（YouTube订阅：侯老师网络学堂） 63
+      - 加拿大（YouTube订阅：侯老师网络学堂） 35
+      - 英国（YouTube订阅：侯老师网络学堂） 64
+      - 法国（YouTube订阅：侯老师网络学堂） 32
+      - 英国（YouTube订阅：侯老师网络学堂） 65
+      - 英国（YouTube订阅：侯老师网络学堂） 66
+      - 英国（YouTube订阅：侯老师网络学堂） 67
+      - 美国（YouTube订阅：侯老师网络学堂） 6
+      - 法国（YouTube订阅：侯老师网络学堂） 33
+      - 加拿大（YouTube订阅：侯老师网络学堂） 36
+      - 美国（YouTube订阅：侯老师网络学堂）_ 5
+      - 法国（YouTube订阅：侯老师网络学堂） 34
+      - 英国（YouTube订阅：侯老师网络学堂） 68
+      - 法国（YouTube订阅：侯老师网络学堂） 35
+      - 英国（YouTube订阅：侯老师网络学堂） 69
+      - 英国（YouTube订阅：侯老师网络学堂） 70
+      - 加拿大（YouTube订阅：侯老师网络学堂） 37
+      - 法国（YouTube订阅：侯老师网络学堂） 36
+      - 法国（YouTube订阅：侯老师网络学堂） 37
+      - 美国（YouTube订阅：侯老师网络学堂） 7
+      - 澳大利亚（YouTube订阅：侯老师网络学堂）
+      - 加拿大（YouTube订阅：侯老师网络学堂） 38
+      - 法国（YouTube订阅：侯老师网络学堂） 38
+      - 印度（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 71
+      - 韩国（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 72
+      - 美国（YouTube订阅：侯老师网络学堂） 8
+      - 法国（YouTube订阅：侯老师网络学堂） 39
+      - 加拿大（YouTube订阅：侯老师网络学堂） 39
+      - 美国（YouTube订阅：侯老师网络学堂）_1.71Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.95Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.96Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.15Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.99Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.46Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_3.42Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.72Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.88Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_9.52Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.01Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.96Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_8.08Mb
+      - 美国（YouTube订阅：侯老师网络学堂）_3.86Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.55Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.95Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_6.52Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_5.60Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.53Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_7.46Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.86Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_5.87Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.43Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.17Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.34Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_8.42Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_6.95Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_6.89Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_12.80Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.75Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.70Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.99Mb 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 美国（YouTube订阅：侯老师网络学堂）_2429
-      - 美国（YouTube订阅：侯老师网络学堂）_2411
-      - 美国（YouTube订阅：侯老师网络学堂）_2451
-      - 美国（YouTube订阅：侯老师网络学堂）_2469
-      - 美国（YouTube订阅：侯老师网络学堂）_2474
-      - 美国（YouTube订阅：侯老师网络学堂）_2463
-      - 美国（YouTube订阅：侯老师网络学堂）_2518
-      - 美国（YouTube订阅：侯老师网络学堂）_2537
-      - 美国（YouTube订阅：侯老师网络学堂）_2571
-      - 美国（YouTube订阅：侯老师网络学堂）_2567
-      - 美国（YouTube订阅：侯老师网络学堂）_2447
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2762
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2754
-      - 美国（YouTube订阅：侯老师网络学堂）_2465
-      - 美国（YouTube订阅：侯老师网络学堂）_2610
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2775
-      - 美国（YouTube订阅：侯老师网络学堂）_2381
-      - 美国（YouTube订阅：侯老师网络学堂）_2532
-      - 美国（YouTube订阅：侯老师网络学堂）_2408
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2797
-      - 美国（YouTube订阅：侯老师网络学堂）_2524
-      - 美国（YouTube订阅：侯老师网络学堂）_2527
-      - 美国（YouTube订阅：侯老师网络学堂）_2541
-      - 美国（YouTube订阅：侯老师网络学堂）_2588
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2767
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2770
-      - 美国（YouTube订阅：侯老师网络学堂）_2348
-      - 美国（YouTube订阅：侯老师网络学堂）_2471
-      - 美国（YouTube订阅：侯老师网络学堂）_2460
-      - 美国（YouTube订阅：侯老师网络学堂）_2491
-      - 美国（YouTube订阅：侯老师网络学堂）_2540
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2895
-      - 美国（YouTube订阅：侯老师网络学堂）_2514
-      - 美国（YouTube订阅：侯老师网络学堂）_2585
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2858
-      - 美国（YouTube订阅：侯老师网络学堂）_2476
-      - 美国（YouTube订阅：侯老师网络学堂）_2467
-      - 美国（YouTube订阅：侯老师网络学堂）_2389
-      - 美国（YouTube订阅：侯老师网络学堂）_2445
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2921
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2934
-      - 美国（YouTube订阅：侯老师网络学堂）_8.12Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_3.35Mb
-      - 加拿大（YouTube订阅：侯老师网络学堂
-      - 美国（YouTube订阅：侯老师网络学堂）_0.85Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_6.86Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_2.31Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.47Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.63Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_8.35Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.27Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.05Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.26Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.99Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.17Mb
+      - 中转（YouTube订阅：侯老师网络学堂）_4.27Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.53Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.49Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.48Mb
+      - 美国（YouTube订阅：侯老师网络学堂）_3.88Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.34Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_5.87Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.43Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2869_7.46Mb
+      - 法国（YouTube订阅：侯老师网络学堂）_550
+      - 法国（YouTube订阅：侯老师网络学堂）_549
+      - 法国（YouTube订阅：侯老师网络学堂）_546
+      - 法国（YouTube订阅：侯老师网络学堂）_535
+      - 法国（YouTube订阅：侯老师网络学堂）_562
+      - 法国（YouTube订阅：侯老师网络学堂）_548
+      - 法国（YouTube订阅：侯老师网络学堂）_522
+      - 法国（YouTube订阅：侯老师网络学堂）_555
+      - 法国（YouTube订阅：侯老师网络学堂）_534
+      - 法国（YouTube订阅：侯老师网络学堂）_579
+      - 法国（YouTube订阅：侯老师网络学堂）_533
+      - 香港中转（YouTube订阅：侯老师网络学堂）
+      - 香港中转（YouTube订阅：侯老师网络学堂） 2
+      - 新加坡中转（YouTube订阅：侯老师网络学堂）
+      - 新加坡中转（YouTube订阅：侯老师网络学堂） 2
+      - 香港中转（YouTube订阅：侯老师网络学堂） 3
+      - 韩国（YouTube订阅：侯老师网络学堂）
+      - 美国（YouTube订阅：侯老师网络学堂）_
+      - 美国（YouTube订阅：侯老师网络学堂）
       - 加拿大（YouTube订阅：侯老师网络学堂）
-      - 美国（YouTube订阅：侯老师网络学堂）_3.58Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.58Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.90Mb
       - 加拿大（YouTube订阅：侯老师网络学堂） 2
-      - 美国（YouTube订阅：侯老师网络学堂）_5.82Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.03Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.31Mb
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2887美国（YouTube订阅：侯老师网络学堂）_0.50Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.48Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_5.32Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.69Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.17Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_5.59Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_3.05Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.32Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.58Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.75Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.92Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.42Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.44Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.64Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_15.13Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_10.24Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.48Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_17.49Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_18.89Mb
-      - 德国（YouTube订阅：侯老师网络学堂）_357
-      - 德国（YouTube订阅：侯老师网络学堂）_350
+      - 加拿大（YouTube订阅：侯老师网络学堂） 3
+      - 加拿大（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 5
+      - 加拿大（YouTube订阅：侯老师网络学堂） 6
+      - 加拿大（YouTube订阅：侯老师网络学堂） 7
+      - 德国（YouTube订阅：侯老师网络学堂）
+      - 美国（YouTube订阅：侯老师网络学堂） 2
+      - 加拿大（YouTube订阅：侯老师网络学堂） 8
+      - 加拿大（YouTube订阅：侯老师网络学堂） 9
+      - 美国（YouTube订阅：侯老师网络学堂） 3
+      - 德国（YouTube订阅：侯老师网络学堂） 2
+      - 加拿大（YouTube订阅：侯老师网络学堂） 10
+      - 德国（YouTube订阅：侯老师网络学堂） 3
+      - 加拿大（YouTube订阅：侯老师网络学堂） 11
+      - 加拿大（YouTube订阅：侯老师网络学堂） 12
+      - 加拿大（YouTube订阅：侯老师网络学堂） 13
+      - 德国（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 14
+      - 加拿大（YouTube订阅：侯老师网络学堂） 15
+      - 英国（YouTube订阅：侯老师网络学堂）
+      - 加拿大（YouTube订阅：侯老师网络学堂） 16
+      - 加拿大（YouTube订阅：侯老师网络学堂） 17
+      - 德国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 2
+      - 法国（YouTube订阅：侯老师网络学堂）
+      - 加拿大（YouTube订阅：侯老师网络学堂） 18
+      - 英国（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 19
+      - 加拿大（YouTube订阅：侯老师网络学堂） 20
+      - 荷兰（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 6
+      - 加拿大（YouTube订阅：侯老师网络学堂） 21
+      - 德国（YouTube订阅：侯老师网络学堂） 6
+      - 英国（YouTube订阅：侯老师网络学堂） 7
+      - 美国（YouTube订阅：侯老师网络学堂）_ 2
+      - 加拿大（YouTube订阅：侯老师网络学堂） 22
+      - 加拿大（YouTube订阅：侯老师网络学堂） 23
+      - 英国（YouTube订阅：侯老师网络学堂） 8
+      - 英国（YouTube订阅：侯老师网络学堂） 9
+      - 加拿大（YouTube订阅：侯老师网络学堂） 24
+      - 加拿大（YouTube订阅：侯老师网络学堂） 25
+      - 英国（YouTube订阅：侯老师网络学堂） 10
+      - 加拿大（YouTube订阅：侯老师网络学堂） 26
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 11
+      - 英国（YouTube订阅：侯老师网络学堂） 12
+      - 英国（YouTube订阅：侯老师网络学堂） 13
+      - 英国（YouTube订阅：侯老师网络学堂） 14
+      - 新加坡（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 15
+      - 法国（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 16
+      - 英国（YouTube订阅：侯老师网络学堂） 17
+      - 加拿大（YouTube订阅：侯老师网络学堂） 27
+      - 英国（YouTube订阅：侯老师网络学堂） 18
+      - 未知（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 19
+      - 加拿大（YouTube订阅：侯老师网络学堂） 28
+      - 美国（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 29
+      - 未知（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 20
+      - 加拿大（YouTube订阅：侯老师网络学堂） 30
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 21
+      - 英国（YouTube订阅：侯老师网络学堂） 22
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 23
+      - 法国（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 24
+      - 英国（YouTube订阅：侯老师网络学堂） 25
+      - 英国（YouTube订阅：侯老师网络学堂） 26
+      - 英国（YouTube订阅：侯老师网络学堂） 27
+      - 英国（YouTube订阅：侯老师网络学堂） 28
+      - 英国（YouTube订阅：侯老师网络学堂） 29
+      - 英国（YouTube订阅：侯老师网络学堂） 30
+      - 法国（YouTube订阅：侯老师网络学堂） 4
+      - 未知（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 31
+      - 英国（YouTube订阅：侯老师网络学堂） 32
+      - 英国（YouTube订阅：侯老师网络学堂） 33
+      - 英国（YouTube订阅：侯老师网络学堂） 34
+      - 美国（YouTube订阅：侯老师网络学堂）_ 3
+      - 英国（YouTube订阅：侯老师网络学堂） 35
+      - 加拿大（YouTube订阅：侯老师网络学堂） 31
+      - 英国（YouTube订阅：侯老师网络学堂） 36
+      - 法国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 37
+      - 英国（YouTube订阅：侯老师网络学堂） 38
+      - 英国（YouTube订阅：侯老师网络学堂） 39
+      - 英国（YouTube订阅：侯老师网络学堂） 40
+      - 英国（YouTube订阅：侯老师网络学堂） 41
+      - 法国（YouTube订阅：侯老师网络学堂） 6
+      - 英国（YouTube订阅：侯老师网络学堂） 42
+      - 英国（YouTube订阅：侯老师网络学堂） 43
+      - 英国（YouTube订阅：侯老师网络学堂） 44
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂） 4
+      - 英国（YouTube订阅：侯老师网络学堂） 45
+      - 法国（YouTube订阅：侯老师网络学堂） 7
+      - 法国（YouTube订阅：侯老师网络学堂） 8
+      - 英国（YouTube订阅：侯老师网络学堂） 46
+      - 法国（YouTube订阅：侯老师网络学堂） 9
+      - 法国（YouTube订阅：侯老师网络学堂） 10
+      - 英国（YouTube订阅：侯老师网络学堂） 47
+      - 英国（YouTube订阅：侯老师网络学堂） 48
+      - 法国（YouTube订阅：侯老师网络学堂） 11
+      - 法国（YouTube订阅：侯老师网络学堂） 12
+      - 英国（YouTube订阅：侯老师网络学堂） 49
+      - 英国（YouTube订阅：侯老师网络学堂） 50
+      - 法国（YouTube订阅：侯老师网络学堂） 13
+      - 法国（YouTube订阅：侯老师网络学堂） 14
+      - 英国（YouTube订阅：侯老师网络学堂） 51
+      - 美国（YouTube订阅：侯老师网络学堂）_ 4
+      - 法国（YouTube订阅：侯老师网络学堂） 15
+      - 英国（YouTube订阅：侯老师网络学堂） 52
+      - 法国（YouTube订阅：侯老师网络学堂） 16
+      - 法国（YouTube订阅：侯老师网络学堂） 17
+      - 法国（YouTube订阅：侯老师网络学堂） 18
+      - 法国（YouTube订阅：侯老师网络学堂） 19
+      - 英国（YouTube订阅：侯老师网络学堂） 53
+      - 法国（YouTube订阅：侯老师网络学堂） 20
+      - 英国（YouTube订阅：侯老师网络学堂） 54
+      - 英国（YouTube订阅：侯老师网络学堂） 55
+      - 法国（YouTube订阅：侯老师网络学堂） 21
+      - 法国（YouTube订阅：侯老师网络学堂） 22
+      - 法国（YouTube订阅：侯老师网络学堂） 23
+      - 美国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 56
+      - 英国（YouTube订阅：侯老师网络学堂） 57
+      - 英国（YouTube订阅：侯老师网络学堂） 58
+      - 法国（YouTube订阅：侯老师网络学堂） 24
+      - 法国（YouTube订阅：侯老师网络学堂） 25
+      - 法国（YouTube订阅：侯老师网络学堂） 26
+      - 英国（YouTube订阅：侯老师网络学堂） 59
+      - 英国（YouTube订阅：侯老师网络学堂） 60
+      - 法国（YouTube订阅：侯老师网络学堂） 27
+      - 法国（YouTube订阅：侯老师网络学堂） 28
+      - 法国（YouTube订阅：侯老师网络学堂） 29
+      - 加拿大（YouTube订阅：侯老师网络学堂） 32
+      - 英国（YouTube订阅：侯老师网络学堂） 61
+      - 加拿大（YouTube订阅：侯老师网络学堂） 33
+      - 法国（YouTube订阅：侯老师网络学堂） 30
+      - 法国（YouTube订阅：侯老师网络学堂） 31
+      - 英国（YouTube订阅：侯老师网络学堂） 62
+      - 加拿大（YouTube订阅：侯老师网络学堂） 34
+      - 英国（YouTube订阅：侯老师网络学堂） 63
+      - 加拿大（YouTube订阅：侯老师网络学堂） 35
+      - 英国（YouTube订阅：侯老师网络学堂） 64
+      - 法国（YouTube订阅：侯老师网络学堂） 32
+      - 英国（YouTube订阅：侯老师网络学堂） 65
+      - 英国（YouTube订阅：侯老师网络学堂） 66
+      - 英国（YouTube订阅：侯老师网络学堂） 67
+      - 美国（YouTube订阅：侯老师网络学堂） 6
+      - 法国（YouTube订阅：侯老师网络学堂） 33
+      - 加拿大（YouTube订阅：侯老师网络学堂） 36
+      - 美国（YouTube订阅：侯老师网络学堂）_ 5
+      - 法国（YouTube订阅：侯老师网络学堂） 34
+      - 英国（YouTube订阅：侯老师网络学堂） 68
+      - 法国（YouTube订阅：侯老师网络学堂） 35
+      - 英国（YouTube订阅：侯老师网络学堂） 69
+      - 英国（YouTube订阅：侯老师网络学堂） 70
+      - 加拿大（YouTube订阅：侯老师网络学堂） 37
+      - 法国（YouTube订阅：侯老师网络学堂） 36
+      - 法国（YouTube订阅：侯老师网络学堂） 37
+      - 美国（YouTube订阅：侯老师网络学堂） 7
+      - 澳大利亚（YouTube订阅：侯老师网络学堂）
+      - 加拿大（YouTube订阅：侯老师网络学堂） 38
+      - 法国（YouTube订阅：侯老师网络学堂） 38
+      - 印度（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 71
+      - 韩国（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 72
+      - 美国（YouTube订阅：侯老师网络学堂） 8
+      - 法国（YouTube订阅：侯老师网络学堂） 39
+      - 加拿大（YouTube订阅：侯老师网络学堂） 39
+      - 美国（YouTube订阅：侯老师网络学堂）_1.71Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.95Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.96Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.15Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.99Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.46Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_3.42Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.72Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.88Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_9.52Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.01Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.96Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_8.08Mb
+      - 美国（YouTube订阅：侯老师网络学堂）_3.86Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.55Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.95Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_6.52Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_5.60Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.53Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_7.46Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.86Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_5.87Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.43Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.17Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.34Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_8.42Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_6.95Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_6.89Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_12.80Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.75Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.70Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.99Mb 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国（YouTube订阅：侯老师网络学堂）_2429
-      - 美国（YouTube订阅：侯老师网络学堂）_2411
-      - 美国（YouTube订阅：侯老师网络学堂）_2451
-      - 美国（YouTube订阅：侯老师网络学堂）_2469
-      - 美国（YouTube订阅：侯老师网络学堂）_2474
-      - 美国（YouTube订阅：侯老师网络学堂）_2463
-      - 美国（YouTube订阅：侯老师网络学堂）_2518
-      - 美国（YouTube订阅：侯老师网络学堂）_2537
-      - 美国（YouTube订阅：侯老师网络学堂）_2571
-      - 美国（YouTube订阅：侯老师网络学堂）_2567
-      - 美国（YouTube订阅：侯老师网络学堂）_2447
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2762
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2754
-      - 美国（YouTube订阅：侯老师网络学堂）_2465
-      - 美国（YouTube订阅：侯老师网络学堂）_2610
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2775
-      - 美国（YouTube订阅：侯老师网络学堂）_2381
-      - 美国（YouTube订阅：侯老师网络学堂）_2532
-      - 美国（YouTube订阅：侯老师网络学堂）_2408
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2797
-      - 美国（YouTube订阅：侯老师网络学堂）_2524
-      - 美国（YouTube订阅：侯老师网络学堂）_2527
-      - 美国（YouTube订阅：侯老师网络学堂）_2541
-      - 美国（YouTube订阅：侯老师网络学堂）_2588
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2767
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2770
-      - 美国（YouTube订阅：侯老师网络学堂）_2348
-      - 美国（YouTube订阅：侯老师网络学堂）_2471
-      - 美国（YouTube订阅：侯老师网络学堂）_2460
-      - 美国（YouTube订阅：侯老师网络学堂）_2491
-      - 美国（YouTube订阅：侯老师网络学堂）_2540
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2895
-      - 美国（YouTube订阅：侯老师网络学堂）_2514
-      - 美国（YouTube订阅：侯老师网络学堂）_2585
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2858
-      - 美国（YouTube订阅：侯老师网络学堂）_2476
-      - 美国（YouTube订阅：侯老师网络学堂）_2467
-      - 美国（YouTube订阅：侯老师网络学堂）_2389
-      - 美国（YouTube订阅：侯老师网络学堂）_2445
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2921
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2934
-      - 美国（YouTube订阅：侯老师网络学堂）_8.12Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_3.35Mb
-      - 加拿大（YouTube订阅：侯老师网络学堂
-      - 美国（YouTube订阅：侯老师网络学堂）_0.85Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_6.86Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_2.31Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.47Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.63Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_8.35Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.27Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.05Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.26Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.99Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.17Mb
+      - 中转（YouTube订阅：侯老师网络学堂）_4.27Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.53Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.49Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.48Mb
+      - 美国（YouTube订阅：侯老师网络学堂）_3.88Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.34Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_5.87Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.43Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2869_7.46Mb
+      - 法国（YouTube订阅：侯老师网络学堂）_550
+      - 法国（YouTube订阅：侯老师网络学堂）_549
+      - 法国（YouTube订阅：侯老师网络学堂）_546
+      - 法国（YouTube订阅：侯老师网络学堂）_535
+      - 法国（YouTube订阅：侯老师网络学堂）_562
+      - 法国（YouTube订阅：侯老师网络学堂）_548
+      - 法国（YouTube订阅：侯老师网络学堂）_522
+      - 法国（YouTube订阅：侯老师网络学堂）_555
+      - 法国（YouTube订阅：侯老师网络学堂）_534
+      - 法国（YouTube订阅：侯老师网络学堂）_579
+      - 法国（YouTube订阅：侯老师网络学堂）_533
+      - 香港中转（YouTube订阅：侯老师网络学堂）
+      - 香港中转（YouTube订阅：侯老师网络学堂） 2
+      - 新加坡中转（YouTube订阅：侯老师网络学堂）
+      - 新加坡中转（YouTube订阅：侯老师网络学堂） 2
+      - 香港中转（YouTube订阅：侯老师网络学堂） 3
+      - 韩国（YouTube订阅：侯老师网络学堂）
+      - 美国（YouTube订阅：侯老师网络学堂）_
+      - 美国（YouTube订阅：侯老师网络学堂）
       - 加拿大（YouTube订阅：侯老师网络学堂）
-      - 美国（YouTube订阅：侯老师网络学堂）_3.58Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.58Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.90Mb
       - 加拿大（YouTube订阅：侯老师网络学堂） 2
-      - 美国（YouTube订阅：侯老师网络学堂）_5.82Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.03Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.31Mb
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2887美国（YouTube订阅：侯老师网络学堂）_0.50Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.48Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_5.32Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.69Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.17Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_5.59Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_3.05Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.32Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.58Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.75Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.92Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.42Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.44Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.64Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_15.13Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_10.24Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.48Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_17.49Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_18.89Mb
-      - 德国（YouTube订阅：侯老师网络学堂）_357
-      - 德国（YouTube订阅：侯老师网络学堂）_350
+      - 加拿大（YouTube订阅：侯老师网络学堂） 3
+      - 加拿大（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 5
+      - 加拿大（YouTube订阅：侯老师网络学堂） 6
+      - 加拿大（YouTube订阅：侯老师网络学堂） 7
+      - 德国（YouTube订阅：侯老师网络学堂）
+      - 美国（YouTube订阅：侯老师网络学堂） 2
+      - 加拿大（YouTube订阅：侯老师网络学堂） 8
+      - 加拿大（YouTube订阅：侯老师网络学堂） 9
+      - 美国（YouTube订阅：侯老师网络学堂） 3
+      - 德国（YouTube订阅：侯老师网络学堂） 2
+      - 加拿大（YouTube订阅：侯老师网络学堂） 10
+      - 德国（YouTube订阅：侯老师网络学堂） 3
+      - 加拿大（YouTube订阅：侯老师网络学堂） 11
+      - 加拿大（YouTube订阅：侯老师网络学堂） 12
+      - 加拿大（YouTube订阅：侯老师网络学堂） 13
+      - 德国（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 14
+      - 加拿大（YouTube订阅：侯老师网络学堂） 15
+      - 英国（YouTube订阅：侯老师网络学堂）
+      - 加拿大（YouTube订阅：侯老师网络学堂） 16
+      - 加拿大（YouTube订阅：侯老师网络学堂） 17
+      - 德国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 2
+      - 法国（YouTube订阅：侯老师网络学堂）
+      - 加拿大（YouTube订阅：侯老师网络学堂） 18
+      - 英国（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 19
+      - 加拿大（YouTube订阅：侯老师网络学堂） 20
+      - 荷兰（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 6
+      - 加拿大（YouTube订阅：侯老师网络学堂） 21
+      - 德国（YouTube订阅：侯老师网络学堂） 6
+      - 英国（YouTube订阅：侯老师网络学堂） 7
+      - 美国（YouTube订阅：侯老师网络学堂）_ 2
+      - 加拿大（YouTube订阅：侯老师网络学堂） 22
+      - 加拿大（YouTube订阅：侯老师网络学堂） 23
+      - 英国（YouTube订阅：侯老师网络学堂） 8
+      - 英国（YouTube订阅：侯老师网络学堂） 9
+      - 加拿大（YouTube订阅：侯老师网络学堂） 24
+      - 加拿大（YouTube订阅：侯老师网络学堂） 25
+      - 英国（YouTube订阅：侯老师网络学堂） 10
+      - 加拿大（YouTube订阅：侯老师网络学堂） 26
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 11
+      - 英国（YouTube订阅：侯老师网络学堂） 12
+      - 英国（YouTube订阅：侯老师网络学堂） 13
+      - 英国（YouTube订阅：侯老师网络学堂） 14
+      - 新加坡（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 15
+      - 法国（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 16
+      - 英国（YouTube订阅：侯老师网络学堂） 17
+      - 加拿大（YouTube订阅：侯老师网络学堂） 27
+      - 英国（YouTube订阅：侯老师网络学堂） 18
+      - 未知（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 19
+      - 加拿大（YouTube订阅：侯老师网络学堂） 28
+      - 美国（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 29
+      - 未知（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 20
+      - 加拿大（YouTube订阅：侯老师网络学堂） 30
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 21
+      - 英国（YouTube订阅：侯老师网络学堂） 22
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 23
+      - 法国（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 24
+      - 英国（YouTube订阅：侯老师网络学堂） 25
+      - 英国（YouTube订阅：侯老师网络学堂） 26
+      - 英国（YouTube订阅：侯老师网络学堂） 27
+      - 英国（YouTube订阅：侯老师网络学堂） 28
+      - 英国（YouTube订阅：侯老师网络学堂） 29
+      - 英国（YouTube订阅：侯老师网络学堂） 30
+      - 法国（YouTube订阅：侯老师网络学堂） 4
+      - 未知（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 31
+      - 英国（YouTube订阅：侯老师网络学堂） 32
+      - 英国（YouTube订阅：侯老师网络学堂） 33
+      - 英国（YouTube订阅：侯老师网络学堂） 34
+      - 美国（YouTube订阅：侯老师网络学堂）_ 3
+      - 英国（YouTube订阅：侯老师网络学堂） 35
+      - 加拿大（YouTube订阅：侯老师网络学堂） 31
+      - 英国（YouTube订阅：侯老师网络学堂） 36
+      - 法国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 37
+      - 英国（YouTube订阅：侯老师网络学堂） 38
+      - 英国（YouTube订阅：侯老师网络学堂） 39
+      - 英国（YouTube订阅：侯老师网络学堂） 40
+      - 英国（YouTube订阅：侯老师网络学堂） 41
+      - 法国（YouTube订阅：侯老师网络学堂） 6
+      - 英国（YouTube订阅：侯老师网络学堂） 42
+      - 英国（YouTube订阅：侯老师网络学堂） 43
+      - 英国（YouTube订阅：侯老师网络学堂） 44
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂） 4
+      - 英国（YouTube订阅：侯老师网络学堂） 45
+      - 法国（YouTube订阅：侯老师网络学堂） 7
+      - 法国（YouTube订阅：侯老师网络学堂） 8
+      - 英国（YouTube订阅：侯老师网络学堂） 46
+      - 法国（YouTube订阅：侯老师网络学堂） 9
+      - 法国（YouTube订阅：侯老师网络学堂） 10
+      - 英国（YouTube订阅：侯老师网络学堂） 47
+      - 英国（YouTube订阅：侯老师网络学堂） 48
+      - 法国（YouTube订阅：侯老师网络学堂） 11
+      - 法国（YouTube订阅：侯老师网络学堂） 12
+      - 英国（YouTube订阅：侯老师网络学堂） 49
+      - 英国（YouTube订阅：侯老师网络学堂） 50
+      - 法国（YouTube订阅：侯老师网络学堂） 13
+      - 法国（YouTube订阅：侯老师网络学堂） 14
+      - 英国（YouTube订阅：侯老师网络学堂） 51
+      - 美国（YouTube订阅：侯老师网络学堂）_ 4
+      - 法国（YouTube订阅：侯老师网络学堂） 15
+      - 英国（YouTube订阅：侯老师网络学堂） 52
+      - 法国（YouTube订阅：侯老师网络学堂） 16
+      - 法国（YouTube订阅：侯老师网络学堂） 17
+      - 法国（YouTube订阅：侯老师网络学堂） 18
+      - 法国（YouTube订阅：侯老师网络学堂） 19
+      - 英国（YouTube订阅：侯老师网络学堂） 53
+      - 法国（YouTube订阅：侯老师网络学堂） 20
+      - 英国（YouTube订阅：侯老师网络学堂） 54
+      - 英国（YouTube订阅：侯老师网络学堂） 55
+      - 法国（YouTube订阅：侯老师网络学堂） 21
+      - 法国（YouTube订阅：侯老师网络学堂） 22
+      - 法国（YouTube订阅：侯老师网络学堂） 23
+      - 美国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 56
+      - 英国（YouTube订阅：侯老师网络学堂） 57
+      - 英国（YouTube订阅：侯老师网络学堂） 58
+      - 法国（YouTube订阅：侯老师网络学堂） 24
+      - 法国（YouTube订阅：侯老师网络学堂） 25
+      - 法国（YouTube订阅：侯老师网络学堂） 26
+      - 英国（YouTube订阅：侯老师网络学堂） 59
+      - 英国（YouTube订阅：侯老师网络学堂） 60
+      - 法国（YouTube订阅：侯老师网络学堂） 27
+      - 法国（YouTube订阅：侯老师网络学堂） 28
+      - 法国（YouTube订阅：侯老师网络学堂） 29
+      - 加拿大（YouTube订阅：侯老师网络学堂） 32
+      - 英国（YouTube订阅：侯老师网络学堂） 61
+      - 加拿大（YouTube订阅：侯老师网络学堂） 33
+      - 法国（YouTube订阅：侯老师网络学堂） 30
+      - 法国（YouTube订阅：侯老师网络学堂） 31
+      - 英国（YouTube订阅：侯老师网络学堂） 62
+      - 加拿大（YouTube订阅：侯老师网络学堂） 34
+      - 英国（YouTube订阅：侯老师网络学堂） 63
+      - 加拿大（YouTube订阅：侯老师网络学堂） 35
+      - 英国（YouTube订阅：侯老师网络学堂） 64
+      - 法国（YouTube订阅：侯老师网络学堂） 32
+      - 英国（YouTube订阅：侯老师网络学堂） 65
+      - 英国（YouTube订阅：侯老师网络学堂） 66
+      - 英国（YouTube订阅：侯老师网络学堂） 67
+      - 美国（YouTube订阅：侯老师网络学堂） 6
+      - 法国（YouTube订阅：侯老师网络学堂） 33
+      - 加拿大（YouTube订阅：侯老师网络学堂） 36
+      - 美国（YouTube订阅：侯老师网络学堂）_ 5
+      - 法国（YouTube订阅：侯老师网络学堂） 34
+      - 英国（YouTube订阅：侯老师网络学堂） 68
+      - 法国（YouTube订阅：侯老师网络学堂） 35
+      - 英国（YouTube订阅：侯老师网络学堂） 69
+      - 英国（YouTube订阅：侯老师网络学堂） 70
+      - 加拿大（YouTube订阅：侯老师网络学堂） 37
+      - 法国（YouTube订阅：侯老师网络学堂） 36
+      - 法国（YouTube订阅：侯老师网络学堂） 37
+      - 美国（YouTube订阅：侯老师网络学堂） 7
+      - 澳大利亚（YouTube订阅：侯老师网络学堂）
+      - 加拿大（YouTube订阅：侯老师网络学堂） 38
+      - 法国（YouTube订阅：侯老师网络学堂） 38
+      - 印度（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 71
+      - 韩国（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 72
+      - 美国（YouTube订阅：侯老师网络学堂） 8
+      - 法国（YouTube订阅：侯老师网络学堂） 39
+      - 加拿大（YouTube订阅：侯老师网络学堂） 39
+      - 美国（YouTube订阅：侯老师网络学堂）_1.71Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.95Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.96Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.15Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.99Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.46Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_3.42Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.72Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.88Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_9.52Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.01Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.96Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_8.08Mb
+      - 美国（YouTube订阅：侯老师网络学堂）_3.86Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.55Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.95Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_6.52Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_5.60Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.53Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_7.46Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.86Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_5.87Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.43Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.17Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.34Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_8.42Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_6.95Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_6.89Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_12.80Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.75Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.70Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.99Mb 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -732,88 +2007,247 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国（YouTube订阅：侯老师网络学堂）_2429
-      - 美国（YouTube订阅：侯老师网络学堂）_2411
-      - 美国（YouTube订阅：侯老师网络学堂）_2451
-      - 美国（YouTube订阅：侯老师网络学堂）_2469
-      - 美国（YouTube订阅：侯老师网络学堂）_2474
-      - 美国（YouTube订阅：侯老师网络学堂）_2463
-      - 美国（YouTube订阅：侯老师网络学堂）_2518
-      - 美国（YouTube订阅：侯老师网络学堂）_2537
-      - 美国（YouTube订阅：侯老师网络学堂）_2571
-      - 美国（YouTube订阅：侯老师网络学堂）_2567
-      - 美国（YouTube订阅：侯老师网络学堂）_2447
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2762
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2754
-      - 美国（YouTube订阅：侯老师网络学堂）_2465
-      - 美国（YouTube订阅：侯老师网络学堂）_2610
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2775
-      - 美国（YouTube订阅：侯老师网络学堂）_2381
-      - 美国（YouTube订阅：侯老师网络学堂）_2532
-      - 美国（YouTube订阅：侯老师网络学堂）_2408
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2797
-      - 美国（YouTube订阅：侯老师网络学堂）_2524
-      - 美国（YouTube订阅：侯老师网络学堂）_2527
-      - 美国（YouTube订阅：侯老师网络学堂）_2541
-      - 美国（YouTube订阅：侯老师网络学堂）_2588
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2767
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2770
-      - 美国（YouTube订阅：侯老师网络学堂）_2348
-      - 美国（YouTube订阅：侯老师网络学堂）_2471
-      - 美国（YouTube订阅：侯老师网络学堂）_2460
-      - 美国（YouTube订阅：侯老师网络学堂）_2491
-      - 美国（YouTube订阅：侯老师网络学堂）_2540
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2895
-      - 美国（YouTube订阅：侯老师网络学堂）_2514
-      - 美国（YouTube订阅：侯老师网络学堂）_2585
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2858
-      - 美国（YouTube订阅：侯老师网络学堂）_2476
-      - 美国（YouTube订阅：侯老师网络学堂）_2467
-      - 美国（YouTube订阅：侯老师网络学堂）_2389
-      - 美国（YouTube订阅：侯老师网络学堂）_2445
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2921
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2934
-      - 美国（YouTube订阅：侯老师网络学堂）_8.12Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_3.35Mb
-      - 加拿大（YouTube订阅：侯老师网络学堂
-      - 美国（YouTube订阅：侯老师网络学堂）_0.85Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_6.86Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_2.31Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.47Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.63Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_8.35Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.27Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.05Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.26Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.99Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.17Mb
+      - 中转（YouTube订阅：侯老师网络学堂）_4.27Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.53Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.49Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.48Mb
+      - 美国（YouTube订阅：侯老师网络学堂）_3.88Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.34Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_5.87Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.43Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2869_7.46Mb
+      - 法国（YouTube订阅：侯老师网络学堂）_550
+      - 法国（YouTube订阅：侯老师网络学堂）_549
+      - 法国（YouTube订阅：侯老师网络学堂）_546
+      - 法国（YouTube订阅：侯老师网络学堂）_535
+      - 法国（YouTube订阅：侯老师网络学堂）_562
+      - 法国（YouTube订阅：侯老师网络学堂）_548
+      - 法国（YouTube订阅：侯老师网络学堂）_522
+      - 法国（YouTube订阅：侯老师网络学堂）_555
+      - 法国（YouTube订阅：侯老师网络学堂）_534
+      - 法国（YouTube订阅：侯老师网络学堂）_579
+      - 法国（YouTube订阅：侯老师网络学堂）_533
+      - 香港中转（YouTube订阅：侯老师网络学堂）
+      - 香港中转（YouTube订阅：侯老师网络学堂） 2
+      - 新加坡中转（YouTube订阅：侯老师网络学堂）
+      - 新加坡中转（YouTube订阅：侯老师网络学堂） 2
+      - 香港中转（YouTube订阅：侯老师网络学堂） 3
+      - 韩国（YouTube订阅：侯老师网络学堂）
+      - 美国（YouTube订阅：侯老师网络学堂）_
+      - 美国（YouTube订阅：侯老师网络学堂）
       - 加拿大（YouTube订阅：侯老师网络学堂）
-      - 美国（YouTube订阅：侯老师网络学堂）_3.58Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.58Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.90Mb
       - 加拿大（YouTube订阅：侯老师网络学堂） 2
-      - 美国（YouTube订阅：侯老师网络学堂）_5.82Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.03Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.31Mb
-      - 加拿大（YouTube订阅：侯老师网络学堂）_2887美国（YouTube订阅：侯老师网络学堂）_0.50Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.48Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_5.32Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.69Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.17Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_5.59Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_3.05Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.32Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_1.58Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.75Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_4.92Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.42Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.44Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.64Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_15.13Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_10.24Mb
-      - 美国（YouTube订阅：侯老师网络学堂）_0.48Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_17.49Mb
-      - 中转未知（YouTube订阅：侯老师网络学堂）_18.89Mb
-      - 德国（YouTube订阅：侯老师网络学堂）_357
-      - 德国（YouTube订阅：侯老师网络学堂）_350
+      - 加拿大（YouTube订阅：侯老师网络学堂） 3
+      - 加拿大（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 5
+      - 加拿大（YouTube订阅：侯老师网络学堂） 6
+      - 加拿大（YouTube订阅：侯老师网络学堂） 7
+      - 德国（YouTube订阅：侯老师网络学堂）
+      - 美国（YouTube订阅：侯老师网络学堂） 2
+      - 加拿大（YouTube订阅：侯老师网络学堂） 8
+      - 加拿大（YouTube订阅：侯老师网络学堂） 9
+      - 美国（YouTube订阅：侯老师网络学堂） 3
+      - 德国（YouTube订阅：侯老师网络学堂） 2
+      - 加拿大（YouTube订阅：侯老师网络学堂） 10
+      - 德国（YouTube订阅：侯老师网络学堂） 3
+      - 加拿大（YouTube订阅：侯老师网络学堂） 11
+      - 加拿大（YouTube订阅：侯老师网络学堂） 12
+      - 加拿大（YouTube订阅：侯老师网络学堂） 13
+      - 德国（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 14
+      - 加拿大（YouTube订阅：侯老师网络学堂） 15
+      - 英国（YouTube订阅：侯老师网络学堂）
+      - 加拿大（YouTube订阅：侯老师网络学堂） 16
+      - 加拿大（YouTube订阅：侯老师网络学堂） 17
+      - 德国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 2
+      - 法国（YouTube订阅：侯老师网络学堂）
+      - 加拿大（YouTube订阅：侯老师网络学堂） 18
+      - 英国（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 19
+      - 加拿大（YouTube订阅：侯老师网络学堂） 20
+      - 荷兰（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 6
+      - 加拿大（YouTube订阅：侯老师网络学堂） 21
+      - 德国（YouTube订阅：侯老师网络学堂） 6
+      - 英国（YouTube订阅：侯老师网络学堂） 7
+      - 美国（YouTube订阅：侯老师网络学堂）_ 2
+      - 加拿大（YouTube订阅：侯老师网络学堂） 22
+      - 加拿大（YouTube订阅：侯老师网络学堂） 23
+      - 英国（YouTube订阅：侯老师网络学堂） 8
+      - 英国（YouTube订阅：侯老师网络学堂） 9
+      - 加拿大（YouTube订阅：侯老师网络学堂） 24
+      - 加拿大（YouTube订阅：侯老师网络学堂） 25
+      - 英国（YouTube订阅：侯老师网络学堂） 10
+      - 加拿大（YouTube订阅：侯老师网络学堂） 26
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 11
+      - 英国（YouTube订阅：侯老师网络学堂） 12
+      - 英国（YouTube订阅：侯老师网络学堂） 13
+      - 英国（YouTube订阅：侯老师网络学堂） 14
+      - 新加坡（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 15
+      - 法国（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 16
+      - 英国（YouTube订阅：侯老师网络学堂） 17
+      - 加拿大（YouTube订阅：侯老师网络学堂） 27
+      - 英国（YouTube订阅：侯老师网络学堂） 18
+      - 未知（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 19
+      - 加拿大（YouTube订阅：侯老师网络学堂） 28
+      - 美国（YouTube订阅：侯老师网络学堂） 4
+      - 加拿大（YouTube订阅：侯老师网络学堂） 29
+      - 未知（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 20
+      - 加拿大（YouTube订阅：侯老师网络学堂） 30
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 21
+      - 英国（YouTube订阅：侯老师网络学堂） 22
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 23
+      - 法国（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 24
+      - 英国（YouTube订阅：侯老师网络学堂） 25
+      - 英国（YouTube订阅：侯老师网络学堂） 26
+      - 英国（YouTube订阅：侯老师网络学堂） 27
+      - 英国（YouTube订阅：侯老师网络学堂） 28
+      - 英国（YouTube订阅：侯老师网络学堂） 29
+      - 英国（YouTube订阅：侯老师网络学堂） 30
+      - 法国（YouTube订阅：侯老师网络学堂） 4
+      - 未知（YouTube订阅：侯老师网络学堂） 3
+      - 英国（YouTube订阅：侯老师网络学堂） 31
+      - 英国（YouTube订阅：侯老师网络学堂） 32
+      - 英国（YouTube订阅：侯老师网络学堂） 33
+      - 英国（YouTube订阅：侯老师网络学堂） 34
+      - 美国（YouTube订阅：侯老师网络学堂）_ 3
+      - 英国（YouTube订阅：侯老师网络学堂） 35
+      - 加拿大（YouTube订阅：侯老师网络学堂） 31
+      - 英国（YouTube订阅：侯老师网络学堂） 36
+      - 法国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 37
+      - 英国（YouTube订阅：侯老师网络学堂） 38
+      - 英国（YouTube订阅：侯老师网络学堂） 39
+      - 英国（YouTube订阅：侯老师网络学堂） 40
+      - 英国（YouTube订阅：侯老师网络学堂） 41
+      - 法国（YouTube订阅：侯老师网络学堂） 6
+      - 英国（YouTube订阅：侯老师网络学堂） 42
+      - 英国（YouTube订阅：侯老师网络学堂） 43
+      - 英国（YouTube订阅：侯老师网络学堂） 44
+      - 俄罗斯联邦（YouTube订阅：侯老师网络学堂） 4
+      - 英国（YouTube订阅：侯老师网络学堂） 45
+      - 法国（YouTube订阅：侯老师网络学堂） 7
+      - 法国（YouTube订阅：侯老师网络学堂） 8
+      - 英国（YouTube订阅：侯老师网络学堂） 46
+      - 法国（YouTube订阅：侯老师网络学堂） 9
+      - 法国（YouTube订阅：侯老师网络学堂） 10
+      - 英国（YouTube订阅：侯老师网络学堂） 47
+      - 英国（YouTube订阅：侯老师网络学堂） 48
+      - 法国（YouTube订阅：侯老师网络学堂） 11
+      - 法国（YouTube订阅：侯老师网络学堂） 12
+      - 英国（YouTube订阅：侯老师网络学堂） 49
+      - 英国（YouTube订阅：侯老师网络学堂） 50
+      - 法国（YouTube订阅：侯老师网络学堂） 13
+      - 法国（YouTube订阅：侯老师网络学堂） 14
+      - 英国（YouTube订阅：侯老师网络学堂） 51
+      - 美国（YouTube订阅：侯老师网络学堂）_ 4
+      - 法国（YouTube订阅：侯老师网络学堂） 15
+      - 英国（YouTube订阅：侯老师网络学堂） 52
+      - 法国（YouTube订阅：侯老师网络学堂） 16
+      - 法国（YouTube订阅：侯老师网络学堂） 17
+      - 法国（YouTube订阅：侯老师网络学堂） 18
+      - 法国（YouTube订阅：侯老师网络学堂） 19
+      - 英国（YouTube订阅：侯老师网络学堂） 53
+      - 法国（YouTube订阅：侯老师网络学堂） 20
+      - 英国（YouTube订阅：侯老师网络学堂） 54
+      - 英国（YouTube订阅：侯老师网络学堂） 55
+      - 法国（YouTube订阅：侯老师网络学堂） 21
+      - 法国（YouTube订阅：侯老师网络学堂） 22
+      - 法国（YouTube订阅：侯老师网络学堂） 23
+      - 美国（YouTube订阅：侯老师网络学堂） 5
+      - 英国（YouTube订阅：侯老师网络学堂） 56
+      - 英国（YouTube订阅：侯老师网络学堂） 57
+      - 英国（YouTube订阅：侯老师网络学堂） 58
+      - 法国（YouTube订阅：侯老师网络学堂） 24
+      - 法国（YouTube订阅：侯老师网络学堂） 25
+      - 法国（YouTube订阅：侯老师网络学堂） 26
+      - 英国（YouTube订阅：侯老师网络学堂） 59
+      - 英国（YouTube订阅：侯老师网络学堂） 60
+      - 法国（YouTube订阅：侯老师网络学堂） 27
+      - 法国（YouTube订阅：侯老师网络学堂） 28
+      - 法国（YouTube订阅：侯老师网络学堂） 29
+      - 加拿大（YouTube订阅：侯老师网络学堂） 32
+      - 英国（YouTube订阅：侯老师网络学堂） 61
+      - 加拿大（YouTube订阅：侯老师网络学堂） 33
+      - 法国（YouTube订阅：侯老师网络学堂） 30
+      - 法国（YouTube订阅：侯老师网络学堂） 31
+      - 英国（YouTube订阅：侯老师网络学堂） 62
+      - 加拿大（YouTube订阅：侯老师网络学堂） 34
+      - 英国（YouTube订阅：侯老师网络学堂） 63
+      - 加拿大（YouTube订阅：侯老师网络学堂） 35
+      - 英国（YouTube订阅：侯老师网络学堂） 64
+      - 法国（YouTube订阅：侯老师网络学堂） 32
+      - 英国（YouTube订阅：侯老师网络学堂） 65
+      - 英国（YouTube订阅：侯老师网络学堂） 66
+      - 英国（YouTube订阅：侯老师网络学堂） 67
+      - 美国（YouTube订阅：侯老师网络学堂） 6
+      - 法国（YouTube订阅：侯老师网络学堂） 33
+      - 加拿大（YouTube订阅：侯老师网络学堂） 36
+      - 美国（YouTube订阅：侯老师网络学堂）_ 5
+      - 法国（YouTube订阅：侯老师网络学堂） 34
+      - 英国（YouTube订阅：侯老师网络学堂） 68
+      - 法国（YouTube订阅：侯老师网络学堂） 35
+      - 英国（YouTube订阅：侯老师网络学堂） 69
+      - 英国（YouTube订阅：侯老师网络学堂） 70
+      - 加拿大（YouTube订阅：侯老师网络学堂） 37
+      - 法国（YouTube订阅：侯老师网络学堂） 36
+      - 法国（YouTube订阅：侯老师网络学堂） 37
+      - 美国（YouTube订阅：侯老师网络学堂） 7
+      - 澳大利亚（YouTube订阅：侯老师网络学堂）
+      - 加拿大（YouTube订阅：侯老师网络学堂） 38
+      - 法国（YouTube订阅：侯老师网络学堂） 38
+      - 印度（YouTube订阅：侯老师网络学堂）
+      - 英国（YouTube订阅：侯老师网络学堂） 71
+      - 韩国（YouTube订阅：侯老师网络学堂） 2
+      - 英国（YouTube订阅：侯老师网络学堂） 72
+      - 美国（YouTube订阅：侯老师网络学堂） 8
+      - 法国（YouTube订阅：侯老师网络学堂） 39
+      - 加拿大（YouTube订阅：侯老师网络学堂） 39
+      - 美国（YouTube订阅：侯老师网络学堂）_1.71Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.95Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.96Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.15Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.99Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.46Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_3.42Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.72Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.88Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_9.52Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.01Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.96Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_8.08Mb
+      - 美国（YouTube订阅：侯老师网络学堂）_3.86Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.55Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.95Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_6.52Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_5.60Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.53Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_7.46Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.86Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_5.87Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.43Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.17Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_4.34Mb 2
+      - 加拿大（YouTube订阅：侯老师网络学堂）_8.42Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_6.95Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_6.89Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_12.80Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_0.75Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_1.70Mb
+      - 加拿大（YouTube订阅：侯老师网络学堂）_2.99Mb 3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
